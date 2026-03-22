@@ -1,0 +1,22 @@
+{
+  "experiment": "exp1_main",
+  "description": "Main result: FCA-guided vs baselines on Countries domain",
+  "domain": "countries",
+  "model": "qwen2.5:7b",
+  "methods": [
+    {"name": "vanilla", "type": "baseline"},
+    {"name": "cot", "type": "baseline"},
+    {"name": "selfconsistency_k5", "type": "baseline", "params": {"k": 5}},
+    {"name": "selfconsistency_k10", "type": "baseline", "params": {"k": 10}},
+    {"name": "fca_guided", "type": "ours"}
+  ],
+  "metrics": [
+    "cross_answer_contradiction_rate",
+    "knowledge_accuracy_precision",
+    "knowledge_accuracy_recall",
+    "knowledge_accuracy_f1",
+    "total_queries"
+  ],
+  "max_steps": 300,
+  "seed": 42
+}
