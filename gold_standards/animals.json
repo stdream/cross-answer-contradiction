@@ -1,0 +1,1349 @@
+{
+  "domain": "animals",
+  "description": "biological and behavioral properties of common animals",
+  "attributes": [
+    "is_mammal",
+    "is_bird",
+    "is_reptile",
+    "is_fish",
+    "can_fly",
+    "lives_in_water",
+    "is_domestic",
+    "is_carnivore",
+    "is_herbivore",
+    "has_fur",
+    "lays_eggs",
+    "is_nocturnal",
+    "is_endangered",
+    "lives_in_groups",
+    "larger_than_human"
+  ],
+  "source": "Curated from IUCN Red List, Encyclopedia of Life, expert review (2024)",
+  "date": "2026-03-22",
+  "num_objects": 40,
+  "num_attributes": 15,
+  "objects": {
+    "bat": [
+      "can_fly",
+      "has_fur",
+      "is_mammal",
+      "is_nocturnal",
+      "lives_in_groups"
+    ],
+    "bear": [
+      "has_fur",
+      "is_carnivore",
+      "is_mammal",
+      "larger_than_human"
+    ],
+    "cat": [
+      "has_fur",
+      "is_carnivore",
+      "is_domestic",
+      "is_mammal",
+      "is_nocturnal"
+    ],
+    "chameleon": [
+      "is_carnivore",
+      "is_reptile",
+      "lays_eggs"
+    ],
+    "cheetah": [
+      "has_fur",
+      "is_carnivore",
+      "is_endangered",
+      "is_mammal"
+    ],
+    "chicken": [
+      "is_bird",
+      "is_domestic",
+      "lays_eggs",
+      "lives_in_groups"
+    ],
+    "cow": [
+      "has_fur",
+      "is_domestic",
+      "is_herbivore",
+      "is_mammal",
+      "larger_than_human",
+      "lives_in_groups"
+    ],
+    "crocodile": [
+      "is_carnivore",
+      "is_nocturnal",
+      "is_reptile",
+      "larger_than_human",
+      "lays_eggs",
+      "lives_in_water"
+    ],
+    "deer": [
+      "has_fur",
+      "is_herbivore",
+      "is_mammal",
+      "lives_in_groups"
+    ],
+    "dog": [
+      "has_fur",
+      "is_carnivore",
+      "is_domestic",
+      "is_mammal",
+      "lives_in_groups"
+    ],
+    "dolphin": [
+      "is_carnivore",
+      "is_mammal",
+      "larger_than_human",
+      "lives_in_groups",
+      "lives_in_water"
+    ],
+    "eagle": [
+      "can_fly",
+      "is_bird",
+      "is_carnivore",
+      "lays_eggs"
+    ],
+    "elephant": [
+      "is_endangered",
+      "is_herbivore",
+      "is_mammal",
+      "larger_than_human",
+      "lives_in_groups"
+    ],
+    "giraffe": [
+      "has_fur",
+      "is_endangered",
+      "is_herbivore",
+      "is_mammal",
+      "larger_than_human",
+      "lives_in_groups"
+    ],
+    "goldfish": [
+      "is_domestic",
+      "is_fish",
+      "lays_eggs",
+      "lives_in_groups",
+      "lives_in_water"
+    ],
+    "gorilla": [
+      "has_fur",
+      "is_endangered",
+      "is_herbivore",
+      "is_mammal",
+      "larger_than_human",
+      "lives_in_groups"
+    ],
+    "horse": [
+      "has_fur",
+      "is_domestic",
+      "is_herbivore",
+      "is_mammal",
+      "larger_than_human",
+      "lives_in_groups"
+    ],
+    "koala": [
+      "has_fur",
+      "is_endangered",
+      "is_herbivore",
+      "is_mammal",
+      "is_nocturnal"
+    ],
+    "komodo_dragon": [
+      "is_carnivore",
+      "is_endangered",
+      "is_reptile",
+      "lays_eggs"
+    ],
+    "lion": [
+      "has_fur",
+      "is_carnivore",
+      "is_mammal",
+      "is_nocturnal",
+      "larger_than_human",
+      "lives_in_groups"
+    ],
+    "lizard": [
+      "is_carnivore",
+      "is_reptile",
+      "lays_eggs"
+    ],
+    "mouse": [
+      "has_fur",
+      "is_domestic",
+      "is_mammal",
+      "is_nocturnal",
+      "lives_in_groups"
+    ],
+    "ostrich": [
+      "is_bird",
+      "is_herbivore",
+      "larger_than_human",
+      "lays_eggs",
+      "lives_in_groups"
+    ],
+    "owl": [
+      "can_fly",
+      "is_bird",
+      "is_carnivore",
+      "is_nocturnal",
+      "lays_eggs"
+    ],
+    "parrot": [
+      "can_fly",
+      "is_bird",
+      "is_domestic",
+      "is_herbivore",
+      "lays_eggs",
+      "lives_in_groups"
+    ],
+    "penguin": [
+      "is_bird",
+      "is_carnivore",
+      "lays_eggs",
+      "lives_in_groups",
+      "lives_in_water"
+    ],
+    "pig": [
+      "is_domestic",
+      "is_mammal",
+      "larger_than_human",
+      "lives_in_groups"
+    ],
+    "pigeon": [
+      "can_fly",
+      "is_bird",
+      "is_domestic",
+      "is_herbivore",
+      "lays_eggs",
+      "lives_in_groups"
+    ],
+    "platypus": [
+      "has_fur",
+      "is_carnivore",
+      "is_mammal",
+      "is_nocturnal",
+      "lays_eggs",
+      "lives_in_water"
+    ],
+    "rabbit": [
+      "has_fur",
+      "is_domestic",
+      "is_herbivore",
+      "is_mammal",
+      "lives_in_groups"
+    ],
+    "salmon": [
+      "is_carnivore",
+      "is_endangered",
+      "is_fish",
+      "lays_eggs",
+      "lives_in_groups",
+      "lives_in_water"
+    ],
+    "seahorse": [
+      "is_endangered",
+      "is_fish",
+      "lives_in_water"
+    ],
+    "shark": [
+      "is_carnivore",
+      "is_endangered",
+      "is_fish",
+      "larger_than_human",
+      "lives_in_water"
+    ],
+    "snake": [
+      "is_carnivore",
+      "is_nocturnal",
+      "is_reptile",
+      "lays_eggs"
+    ],
+    "swan": [
+      "can_fly",
+      "is_bird",
+      "is_herbivore",
+      "lays_eggs",
+      "lives_in_water"
+    ],
+    "tiger": [
+      "has_fur",
+      "is_carnivore",
+      "is_endangered",
+      "is_mammal",
+      "is_nocturnal"
+    ],
+    "tuna": [
+      "is_carnivore",
+      "is_endangered",
+      "is_fish",
+      "larger_than_human",
+      "lays_eggs",
+      "lives_in_groups",
+      "lives_in_water"
+    ],
+    "turtle": [
+      "is_endangered",
+      "is_reptile",
+      "lays_eggs",
+      "lives_in_water"
+    ],
+    "whale": [
+      "is_carnivore",
+      "is_endangered",
+      "is_mammal",
+      "larger_than_human",
+      "lives_in_groups",
+      "lives_in_water"
+    ],
+    "wolf": [
+      "has_fur",
+      "is_carnivore",
+      "is_mammal",
+      "is_nocturnal",
+      "lives_in_groups"
+    ]
+  },
+  "ambiguity_notes": {
+    "australia_note/is_island_nation": "In the countries domain: Australia is a continent-island, conventionally classified as continent. Coded NO.",
+    "bat/can_fly": "Only mammal capable of true sustained flight. Flying squirrels glide but don't fly. Coded YES.",
+    "bear/is_carnivore": "Order Carnivora but many species omnivorous (brown bear, black bear). Polar bear is hypercarnivore. Coded YES (taxonomic classification + meat-eating capacity).",
+    "cat/is_nocturnal": "Technically crepuscular (active dawn/dusk), commonly considered nocturnal. Coded YES.",
+    "dog/is_carnivore": "Order Carnivora, primarily meat-eating but can digest plant matter. Coded YES.",
+    "dolphin/has_fur": "Hairless aquatic mammal. Coded NO.",
+    "dolphin/larger_than_human": "Bottlenose dolphin: 200-600kg, 2-4m. Clearly larger than average human by mass. Coded YES.",
+    "elephant/has_fur": "Very sparse bristles/hair, not conventionally 'fur'. Coded NO.",
+    "mouse/is_domestic": "Wild mice are common, but domestic/pet mice are widespread. Coded YES due to extensive domestication history.",
+    "ostrich/is_herbivore": "Primarily herbivorous (plants, seeds) but occasionally eats insects/small animals. Coded YES (primary diet).",
+    "penguin/can_fly": "Flightless bird; wings adapted as flippers for swimming. Coded can_fly=NO.",
+    "pig/has_fur": "Sparse bristles/coarse hair, not conventionally 'fur'. Coded NO.",
+    "pig/is_herbivore": "Omnivore—eats both plant and animal matter. Coded is_carnivore=NO, is_herbivore=NO.",
+    "pig/larger_than_human": "Domestic farm pig: 100-350kg. Market weight ~100-130kg. Coded YES.",
+    "platypus/is_carnivore": "Eats insects, larvae, shrimp—invertebrate predator. Coded YES (animal food sources).",
+    "platypus/lays_eggs": "Monotreme—mammal that lays eggs. One of only 5 extant monotreme species. Coded is_mammal=YES AND lays_eggs=YES.",
+    "seahorse/lays_eggs": "Female deposits eggs into male's brood pouch where they develop. Male 'gives birth'. Unique reproduction. Coded NO.",
+    "shark/lays_eggs": "Most sharks are viviparous (live birth). Some species (horn shark, cat shark) lay egg cases. Coded NO (majority case).",
+    "snake/lays_eggs": "Most snakes are oviparous. Some (boas, vipers) are viviparous. Coded YES (majority case).",
+    "turtle/is_endangered": "Many sea turtle species endangered (green, hawksbill, leatherback). Generic 'turtle' represents the taxon. Coded YES.",
+    "whale/has_fur": "Virtually hairless aquatic mammal. Some species have sparse hairs at birth. Coded NO.",
+    "whale/is_fish": "Whale is a mammal, not a fish. Common misconception. Coded is_fish=NO, is_mammal=YES."
+  },
+  "canonical_basis": [
+    {
+      "premise": [
+        "is_nocturnal",
+        "larger_than_human"
+      ],
+      "conclusion": [
+        "is_carnivore",
+        "is_nocturnal",
+        "larger_than_human"
+      ]
+    },
+    {
+      "premise": [
+        "is_nocturnal",
+        "lives_in_groups"
+      ],
+      "conclusion": [
+        "has_fur",
+        "is_mammal",
+        "is_nocturnal",
+        "lives_in_groups"
+      ]
+    },
+    {
+      "premise": [
+        "is_endangered",
+        "is_nocturnal"
+      ],
+      "conclusion": [
+        "has_fur",
+        "is_endangered",
+        "is_mammal",
+        "is_nocturnal"
+      ]
+    },
+    {
+      "premise": [
+        "is_endangered",
+        "larger_than_human",
+        "lays_eggs"
+      ],
+      "conclusion": [
+        "is_carnivore",
+        "is_endangered",
+        "is_fish",
+        "larger_than_human",
+        "lays_eggs",
+        "lives_in_groups",
+        "lives_in_water"
+      ]
+    },
+    {
+      "premise": [
+        "is_endangered",
+        "lays_eggs",
+        "lives_in_groups"
+      ],
+      "conclusion": [
+        "is_carnivore",
+        "is_endangered",
+        "is_fish",
+        "lays_eggs",
+        "lives_in_groups",
+        "lives_in_water"
+      ]
+    },
+    {
+      "premise": [
+        "is_nocturnal",
+        "lays_eggs"
+      ],
+      "conclusion": [
+        "is_carnivore",
+        "is_nocturnal",
+        "lays_eggs"
+      ]
+    },
+    {
+      "premise": [
+        "has_fur"
+      ],
+      "conclusion": [
+        "has_fur",
+        "is_mammal"
+      ]
+    },
+    {
+      "premise": [
+        "is_herbivore",
+        "larger_than_human"
+      ],
+      "conclusion": [
+        "is_herbivore",
+        "larger_than_human",
+        "lives_in_groups"
+      ]
+    },
+    {
+      "premise": [
+        "is_endangered",
+        "is_herbivore"
+      ],
+      "conclusion": [
+        "is_endangered",
+        "is_herbivore",
+        "is_mammal"
+      ]
+    },
+    {
+      "premise": [
+        "is_herbivore",
+        "is_nocturnal"
+      ],
+      "conclusion": [
+        "has_fur",
+        "is_endangered",
+        "is_herbivore",
+        "is_mammal",
+        "is_nocturnal"
+      ]
+    },
+    {
+      "premise": [
+        "is_herbivore",
+        "lays_eggs"
+      ],
+      "conclusion": [
+        "is_bird",
+        "is_herbivore",
+        "lays_eggs"
+      ]
+    },
+    {
+      "premise": [
+        "is_carnivore",
+        "is_endangered",
+        "larger_than_human"
+      ],
+      "conclusion": [
+        "is_carnivore",
+        "is_endangered",
+        "larger_than_human",
+        "lives_in_water"
+      ]
+    },
+    {
+      "premise": [
+        "is_carnivore",
+        "is_endangered",
+        "lives_in_groups"
+      ],
+      "conclusion": [
+        "is_carnivore",
+        "is_endangered",
+        "lives_in_groups",
+        "lives_in_water"
+      ]
+    },
+    {
+      "premise": [
+        "is_carnivore",
+        "larger_than_human",
+        "lays_eggs"
+      ],
+      "conclusion": [
+        "is_carnivore",
+        "larger_than_human",
+        "lays_eggs",
+        "lives_in_water"
+      ]
+    },
+    {
+      "premise": [
+        "is_carnivore",
+        "lays_eggs",
+        "lives_in_groups"
+      ],
+      "conclusion": [
+        "is_carnivore",
+        "lays_eggs",
+        "lives_in_groups",
+        "lives_in_water"
+      ]
+    },
+    {
+      "premise": [
+        "is_carnivore",
+        "is_herbivore"
+      ],
+      "conclusion": [
+        "can_fly",
+        "has_fur",
+        "is_bird",
+        "is_carnivore",
+        "is_domestic",
+        "is_endangered",
+        "is_fish",
+        "is_herbivore",
+        "is_mammal",
+        "is_nocturnal",
+        "is_reptile",
+        "larger_than_human",
+        "lays_eggs",
+        "lives_in_groups",
+        "lives_in_water"
+      ]
+    },
+    {
+      "premise": [
+        "is_domestic",
+        "larger_than_human"
+      ],
+      "conclusion": [
+        "is_domestic",
+        "is_mammal",
+        "larger_than_human",
+        "lives_in_groups"
+      ]
+    },
+    {
+      "premise": [
+        "is_domestic",
+        "is_endangered"
+      ],
+      "conclusion": [
+        "can_fly",
+        "has_fur",
+        "is_bird",
+        "is_carnivore",
+        "is_domestic",
+        "is_endangered",
+        "is_fish",
+        "is_herbivore",
+        "is_mammal",
+        "is_nocturnal",
+        "is_reptile",
+        "larger_than_human",
+        "lays_eggs",
+        "lives_in_groups",
+        "lives_in_water"
+      ]
+    },
+    {
+      "premise": [
+        "is_domestic",
+        "is_nocturnal"
+      ],
+      "conclusion": [
+        "has_fur",
+        "is_domestic",
+        "is_mammal",
+        "is_nocturnal"
+      ]
+    },
+    {
+      "premise": [
+        "is_domestic",
+        "lays_eggs"
+      ],
+      "conclusion": [
+        "is_domestic",
+        "lays_eggs",
+        "lives_in_groups"
+      ]
+    },
+    {
+      "premise": [
+        "is_domestic",
+        "is_herbivore"
+      ],
+      "conclusion": [
+        "is_domestic",
+        "is_herbivore",
+        "lives_in_groups"
+      ]
+    },
+    {
+      "premise": [
+        "is_carnivore",
+        "is_domestic"
+      ],
+      "conclusion": [
+        "has_fur",
+        "is_carnivore",
+        "is_domestic",
+        "is_mammal"
+      ]
+    },
+    {
+      "premise": [
+        "larger_than_human",
+        "lives_in_water"
+      ],
+      "conclusion": [
+        "is_carnivore",
+        "larger_than_human",
+        "lives_in_water"
+      ]
+    },
+    {
+      "premise": [
+        "is_endangered",
+        "lives_in_groups",
+        "lives_in_water"
+      ],
+      "conclusion": [
+        "is_carnivore",
+        "is_endangered",
+        "lives_in_groups",
+        "lives_in_water"
+      ]
+    },
+    {
+      "premise": [
+        "is_nocturnal",
+        "lives_in_water"
+      ],
+      "conclusion": [
+        "is_carnivore",
+        "is_nocturnal",
+        "lays_eggs",
+        "lives_in_water"
+      ]
+    },
+    {
+      "premise": [
+        "is_herbivore",
+        "lives_in_water"
+      ],
+      "conclusion": [
+        "can_fly",
+        "is_bird",
+        "is_herbivore",
+        "lays_eggs",
+        "lives_in_water"
+      ]
+    },
+    {
+      "premise": [
+        "is_carnivore",
+        "larger_than_human",
+        "lays_eggs",
+        "lives_in_groups",
+        "lives_in_water"
+      ],
+      "conclusion": [
+        "is_carnivore",
+        "is_endangered",
+        "is_fish",
+        "larger_than_human",
+        "lays_eggs",
+        "lives_in_groups",
+        "lives_in_water"
+      ]
+    },
+    {
+      "premise": [
+        "is_carnivore",
+        "is_endangered",
+        "lays_eggs",
+        "lives_in_water"
+      ],
+      "conclusion": [
+        "is_carnivore",
+        "is_endangered",
+        "is_fish",
+        "lays_eggs",
+        "lives_in_groups",
+        "lives_in_water"
+      ]
+    },
+    {
+      "premise": [
+        "is_carnivore",
+        "is_nocturnal",
+        "larger_than_human",
+        "lays_eggs",
+        "lives_in_water"
+      ],
+      "conclusion": [
+        "is_carnivore",
+        "is_nocturnal",
+        "is_reptile",
+        "larger_than_human",
+        "lays_eggs",
+        "lives_in_water"
+      ]
+    },
+    {
+      "premise": [
+        "is_domestic",
+        "lives_in_water"
+      ],
+      "conclusion": [
+        "is_domestic",
+        "is_fish",
+        "lays_eggs",
+        "lives_in_groups",
+        "lives_in_water"
+      ]
+    },
+    {
+      "premise": [
+        "can_fly",
+        "larger_than_human"
+      ],
+      "conclusion": [
+        "can_fly",
+        "has_fur",
+        "is_bird",
+        "is_carnivore",
+        "is_domestic",
+        "is_endangered",
+        "is_fish",
+        "is_herbivore",
+        "is_mammal",
+        "is_nocturnal",
+        "is_reptile",
+        "larger_than_human",
+        "lays_eggs",
+        "lives_in_groups",
+        "lives_in_water"
+      ]
+    },
+    {
+      "premise": [
+        "can_fly",
+        "is_endangered"
+      ],
+      "conclusion": [
+        "can_fly",
+        "has_fur",
+        "is_bird",
+        "is_carnivore",
+        "is_domestic",
+        "is_endangered",
+        "is_fish",
+        "is_herbivore",
+        "is_mammal",
+        "is_nocturnal",
+        "is_reptile",
+        "larger_than_human",
+        "lays_eggs",
+        "lives_in_groups",
+        "lives_in_water"
+      ]
+    },
+    {
+      "premise": [
+        "can_fly",
+        "lays_eggs"
+      ],
+      "conclusion": [
+        "can_fly",
+        "is_bird",
+        "lays_eggs"
+      ]
+    },
+    {
+      "premise": [
+        "can_fly",
+        "is_herbivore"
+      ],
+      "conclusion": [
+        "can_fly",
+        "is_bird",
+        "is_herbivore",
+        "lays_eggs"
+      ]
+    },
+    {
+      "premise": [
+        "can_fly",
+        "is_carnivore"
+      ],
+      "conclusion": [
+        "can_fly",
+        "is_bird",
+        "is_carnivore",
+        "lays_eggs"
+      ]
+    },
+    {
+      "premise": [
+        "can_fly",
+        "is_domestic"
+      ],
+      "conclusion": [
+        "can_fly",
+        "is_bird",
+        "is_domestic",
+        "is_herbivore",
+        "lays_eggs",
+        "lives_in_groups"
+      ]
+    },
+    {
+      "premise": [
+        "can_fly",
+        "lives_in_water"
+      ],
+      "conclusion": [
+        "can_fly",
+        "is_bird",
+        "is_herbivore",
+        "lays_eggs",
+        "lives_in_water"
+      ]
+    },
+    {
+      "premise": [
+        "is_fish"
+      ],
+      "conclusion": [
+        "is_fish",
+        "lives_in_water"
+      ]
+    },
+    {
+      "premise": [
+        "is_fish",
+        "lives_in_groups",
+        "lives_in_water"
+      ],
+      "conclusion": [
+        "is_fish",
+        "lays_eggs",
+        "lives_in_groups",
+        "lives_in_water"
+      ]
+    },
+    {
+      "premise": [
+        "is_fish",
+        "lays_eggs",
+        "lives_in_water"
+      ],
+      "conclusion": [
+        "is_fish",
+        "lays_eggs",
+        "lives_in_groups",
+        "lives_in_water"
+      ]
+    },
+    {
+      "premise": [
+        "is_carnivore",
+        "is_fish",
+        "lives_in_water"
+      ],
+      "conclusion": [
+        "is_carnivore",
+        "is_endangered",
+        "is_fish",
+        "lives_in_water"
+      ]
+    },
+    {
+      "premise": [
+        "is_reptile"
+      ],
+      "conclusion": [
+        "is_reptile",
+        "lays_eggs"
+      ]
+    },
+    {
+      "premise": [
+        "is_reptile",
+        "larger_than_human",
+        "lays_eggs"
+      ],
+      "conclusion": [
+        "is_carnivore",
+        "is_nocturnal",
+        "is_reptile",
+        "larger_than_human",
+        "lays_eggs",
+        "lives_in_water"
+      ]
+    },
+    {
+      "premise": [
+        "is_reptile",
+        "lays_eggs",
+        "lives_in_groups"
+      ],
+      "conclusion": [
+        "can_fly",
+        "has_fur",
+        "is_bird",
+        "is_carnivore",
+        "is_domestic",
+        "is_endangered",
+        "is_fish",
+        "is_herbivore",
+        "is_mammal",
+        "is_nocturnal",
+        "is_reptile",
+        "larger_than_human",
+        "lays_eggs",
+        "lives_in_groups",
+        "lives_in_water"
+      ]
+    },
+    {
+      "premise": [
+        "is_carnivore",
+        "is_reptile",
+        "lays_eggs",
+        "lives_in_water"
+      ],
+      "conclusion": [
+        "is_carnivore",
+        "is_nocturnal",
+        "is_reptile",
+        "larger_than_human",
+        "lays_eggs",
+        "lives_in_water"
+      ]
+    },
+    {
+      "premise": [
+        "is_bird"
+      ],
+      "conclusion": [
+        "is_bird",
+        "lays_eggs"
+      ]
+    },
+    {
+      "premise": [
+        "is_bird",
+        "larger_than_human",
+        "lays_eggs"
+      ],
+      "conclusion": [
+        "is_bird",
+        "is_herbivore",
+        "larger_than_human",
+        "lays_eggs",
+        "lives_in_groups"
+      ]
+    },
+    {
+      "premise": [
+        "is_bird",
+        "is_endangered",
+        "lays_eggs"
+      ],
+      "conclusion": [
+        "can_fly",
+        "has_fur",
+        "is_bird",
+        "is_carnivore",
+        "is_domestic",
+        "is_endangered",
+        "is_fish",
+        "is_herbivore",
+        "is_mammal",
+        "is_nocturnal",
+        "is_reptile",
+        "larger_than_human",
+        "lays_eggs",
+        "lives_in_groups",
+        "lives_in_water"
+      ]
+    },
+    {
+      "premise": [
+        "is_bird",
+        "is_carnivore",
+        "is_nocturnal",
+        "lays_eggs"
+      ],
+      "conclusion": [
+        "can_fly",
+        "is_bird",
+        "is_carnivore",
+        "is_nocturnal",
+        "lays_eggs"
+      ]
+    },
+    {
+      "premise": [
+        "is_bird",
+        "is_domestic",
+        "is_herbivore",
+        "lays_eggs",
+        "lives_in_groups"
+      ],
+      "conclusion": [
+        "can_fly",
+        "is_bird",
+        "is_domestic",
+        "is_herbivore",
+        "lays_eggs",
+        "lives_in_groups"
+      ]
+    },
+    {
+      "premise": [
+        "is_bird",
+        "lays_eggs",
+        "lives_in_groups",
+        "lives_in_water"
+      ],
+      "conclusion": [
+        "is_bird",
+        "is_carnivore",
+        "lays_eggs",
+        "lives_in_groups",
+        "lives_in_water"
+      ]
+    },
+    {
+      "premise": [
+        "is_bird",
+        "is_carnivore",
+        "lays_eggs",
+        "lives_in_water"
+      ],
+      "conclusion": [
+        "is_bird",
+        "is_carnivore",
+        "lays_eggs",
+        "lives_in_groups",
+        "lives_in_water"
+      ]
+    },
+    {
+      "premise": [
+        "can_fly",
+        "is_bird",
+        "lays_eggs",
+        "lives_in_groups"
+      ],
+      "conclusion": [
+        "can_fly",
+        "is_bird",
+        "is_domestic",
+        "is_herbivore",
+        "lays_eggs",
+        "lives_in_groups"
+      ]
+    },
+    {
+      "premise": [
+        "is_bird",
+        "is_reptile",
+        "lays_eggs"
+      ],
+      "conclusion": [
+        "can_fly",
+        "has_fur",
+        "is_bird",
+        "is_carnivore",
+        "is_domestic",
+        "is_endangered",
+        "is_fish",
+        "is_herbivore",
+        "is_mammal",
+        "is_nocturnal",
+        "is_reptile",
+        "larger_than_human",
+        "lays_eggs",
+        "lives_in_groups",
+        "lives_in_water"
+      ]
+    },
+    {
+      "premise": [
+        "is_endangered",
+        "is_mammal",
+        "larger_than_human"
+      ],
+      "conclusion": [
+        "is_endangered",
+        "is_mammal",
+        "larger_than_human",
+        "lives_in_groups"
+      ]
+    },
+    {
+      "premise": [
+        "is_endangered",
+        "is_mammal",
+        "lives_in_groups"
+      ],
+      "conclusion": [
+        "is_endangered",
+        "is_mammal",
+        "larger_than_human",
+        "lives_in_groups"
+      ]
+    },
+    {
+      "premise": [
+        "is_mammal",
+        "is_nocturnal"
+      ],
+      "conclusion": [
+        "has_fur",
+        "is_mammal",
+        "is_nocturnal"
+      ]
+    },
+    {
+      "premise": [
+        "is_mammal",
+        "lays_eggs"
+      ],
+      "conclusion": [
+        "has_fur",
+        "is_carnivore",
+        "is_mammal",
+        "is_nocturnal",
+        "lays_eggs",
+        "lives_in_water"
+      ]
+    },
+    {
+      "premise": [
+        "has_fur",
+        "is_endangered",
+        "is_mammal",
+        "larger_than_human",
+        "lives_in_groups"
+      ],
+      "conclusion": [
+        "has_fur",
+        "is_endangered",
+        "is_herbivore",
+        "is_mammal",
+        "larger_than_human",
+        "lives_in_groups"
+      ]
+    },
+    {
+      "premise": [
+        "has_fur",
+        "is_carnivore",
+        "is_mammal",
+        "larger_than_human",
+        "lives_in_groups"
+      ],
+      "conclusion": [
+        "has_fur",
+        "is_carnivore",
+        "is_mammal",
+        "is_nocturnal",
+        "larger_than_human",
+        "lives_in_groups"
+      ]
+    },
+    {
+      "premise": [
+        "has_fur",
+        "is_carnivore",
+        "is_mammal",
+        "is_nocturnal",
+        "larger_than_human"
+      ],
+      "conclusion": [
+        "has_fur",
+        "is_carnivore",
+        "is_mammal",
+        "is_nocturnal",
+        "larger_than_human",
+        "lives_in_groups"
+      ]
+    },
+    {
+      "premise": [
+        "has_fur",
+        "is_domestic",
+        "is_mammal",
+        "larger_than_human",
+        "lives_in_groups"
+      ],
+      "conclusion": [
+        "has_fur",
+        "is_domestic",
+        "is_herbivore",
+        "is_mammal",
+        "larger_than_human",
+        "lives_in_groups"
+      ]
+    },
+    {
+      "premise": [
+        "is_domestic",
+        "is_herbivore",
+        "is_mammal",
+        "lives_in_groups"
+      ],
+      "conclusion": [
+        "has_fur",
+        "is_domestic",
+        "is_herbivore",
+        "is_mammal",
+        "lives_in_groups"
+      ]
+    },
+    {
+      "premise": [
+        "has_fur",
+        "is_carnivore",
+        "is_domestic",
+        "is_mammal",
+        "is_nocturnal",
+        "lives_in_groups"
+      ],
+      "conclusion": [
+        "can_fly",
+        "has_fur",
+        "is_bird",
+        "is_carnivore",
+        "is_domestic",
+        "is_endangered",
+        "is_fish",
+        "is_herbivore",
+        "is_mammal",
+        "is_nocturnal",
+        "is_reptile",
+        "larger_than_human",
+        "lays_eggs",
+        "lives_in_groups",
+        "lives_in_water"
+      ]
+    },
+    {
+      "premise": [
+        "is_mammal",
+        "lives_in_water"
+      ],
+      "conclusion": [
+        "is_carnivore",
+        "is_mammal",
+        "lives_in_water"
+      ]
+    },
+    {
+      "premise": [
+        "is_carnivore",
+        "is_mammal",
+        "larger_than_human",
+        "lives_in_water"
+      ],
+      "conclusion": [
+        "is_carnivore",
+        "is_mammal",
+        "larger_than_human",
+        "lives_in_groups",
+        "lives_in_water"
+      ]
+    },
+    {
+      "premise": [
+        "is_carnivore",
+        "is_mammal",
+        "lives_in_groups",
+        "lives_in_water"
+      ],
+      "conclusion": [
+        "is_carnivore",
+        "is_mammal",
+        "larger_than_human",
+        "lives_in_groups",
+        "lives_in_water"
+      ]
+    },
+    {
+      "premise": [
+        "is_carnivore",
+        "is_endangered",
+        "is_mammal",
+        "lives_in_water"
+      ],
+      "conclusion": [
+        "is_carnivore",
+        "is_endangered",
+        "is_mammal",
+        "larger_than_human",
+        "lives_in_groups",
+        "lives_in_water"
+      ]
+    },
+    {
+      "premise": [
+        "has_fur",
+        "is_carnivore",
+        "is_mammal",
+        "lives_in_water"
+      ],
+      "conclusion": [
+        "has_fur",
+        "is_carnivore",
+        "is_mammal",
+        "is_nocturnal",
+        "lays_eggs",
+        "lives_in_water"
+      ]
+    },
+    {
+      "premise": [
+        "can_fly",
+        "is_mammal"
+      ],
+      "conclusion": [
+        "can_fly",
+        "has_fur",
+        "is_mammal",
+        "is_nocturnal",
+        "lives_in_groups"
+      ]
+    }
+  ],
+  "num_implications": 70
+}

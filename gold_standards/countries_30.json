@@ -1,0 +1,5620 @@
+{
+  "domain": "countries_30",
+  "description": "geopolitical properties of well-known countries",
+  "attributes": [
+    "is_in_europe",
+    "is_in_asia",
+    "has_coastline",
+    "is_island_nation",
+    "is_UN_member",
+    "is_NATO_member",
+    "is_EU_member",
+    "is_G7",
+    "has_nuclear_weapons",
+    "population_over_50M",
+    "population_over_100M",
+    "gdp_top_20",
+    "is_democracy",
+    "is_monarchy",
+    "has_official_english",
+    "landlocked",
+    "is_republic",
+    "has_universal_healthcare",
+    "is_OECD_member",
+    "has_space_program",
+    "is_commonwealth",
+    "has_death_penalty",
+    "is_NATO_founder",
+    "has_high_speed_rail",
+    "is_BRICS_member",
+    "has_tropical_climate",
+    "is_federal_state",
+    "uses_euro",
+    "has_conscription",
+    "is_OPEC_member"
+  ],
+  "source": "Curated from Wikidata, CIA World Factbook, EIU, Wikipedia (2024)",
+  "date": "2026-03-22",
+  "num_objects": 50,
+  "num_attributes": 30,
+  "objects": {
+    "algeria": [
+      "has_coastline",
+      "has_conscription",
+      "is_OPEC_member",
+      "is_UN_member",
+      "is_republic"
+    ],
+    "argentina": [
+      "has_coastline",
+      "has_conscription",
+      "is_UN_member",
+      "is_democracy",
+      "is_federal_state",
+      "is_republic"
+    ],
+    "australia": [
+      "gdp_top_20",
+      "has_coastline",
+      "has_official_english",
+      "has_universal_healthcare",
+      "is_OECD_member",
+      "is_UN_member",
+      "is_commonwealth",
+      "is_democracy",
+      "is_federal_state",
+      "is_monarchy"
+    ],
+    "austria": [
+      "has_conscription",
+      "has_universal_healthcare",
+      "is_EU_member",
+      "is_OECD_member",
+      "is_UN_member",
+      "is_democracy",
+      "is_in_europe",
+      "is_republic",
+      "landlocked",
+      "uses_euro"
+    ],
+    "belgium": [
+      "has_coastline",
+      "has_high_speed_rail",
+      "has_universal_healthcare",
+      "is_EU_member",
+      "is_NATO_founder",
+      "is_NATO_member",
+      "is_OECD_member",
+      "is_UN_member",
+      "is_democracy",
+      "is_federal_state",
+      "is_in_europe",
+      "is_monarchy",
+      "uses_euro"
+    ],
+    "brazil": [
+      "gdp_top_20",
+      "has_coastline",
+      "has_space_program",
+      "has_tropical_climate",
+      "is_BRICS_member",
+      "is_UN_member",
+      "is_democracy",
+      "is_federal_state",
+      "is_republic",
+      "population_over_100M",
+      "population_over_50M"
+    ],
+    "canada": [
+      "gdp_top_20",
+      "has_coastline",
+      "has_official_english",
+      "has_universal_healthcare",
+      "is_G7",
+      "is_NATO_member",
+      "is_OECD_member",
+      "is_UN_member",
+      "is_commonwealth",
+      "is_democracy",
+      "is_federal_state",
+      "is_monarchy"
+    ],
+    "chile": [
+      "has_coastline",
+      "is_OECD_member",
+      "is_UN_member",
+      "is_democracy",
+      "is_republic"
+    ],
+    "china": [
+      "gdp_top_20",
+      "has_coastline",
+      "has_conscription",
+      "has_death_penalty",
+      "has_nuclear_weapons",
+      "has_space_program",
+      "is_BRICS_member",
+      "is_UN_member",
+      "is_in_asia",
+      "is_republic",
+      "population_over_100M",
+      "population_over_50M"
+    ],
+    "colombia": [
+      "has_coastline",
+      "has_tropical_climate",
+      "is_UN_member",
+      "is_democracy",
+      "is_republic",
+      "population_over_50M"
+    ],
+    "cuba": [
+      "has_coastline",
+      "has_tropical_climate",
+      "is_UN_member",
+      "is_island_nation",
+      "is_republic"
+    ],
+    "denmark": [
+      "has_coastline",
+      "has_universal_healthcare",
+      "is_EU_member",
+      "is_NATO_founder",
+      "is_NATO_member",
+      "is_OECD_member",
+      "is_UN_member",
+      "is_democracy",
+      "is_in_europe",
+      "is_monarchy"
+    ],
+    "egypt": [
+      "has_coastline",
+      "has_conscription",
+      "has_death_penalty",
+      "is_UN_member",
+      "is_republic",
+      "population_over_100M",
+      "population_over_50M"
+    ],
+    "ethiopia": [
+      "has_tropical_climate",
+      "is_BRICS_member",
+      "is_UN_member",
+      "is_federal_state",
+      "is_republic",
+      "landlocked",
+      "population_over_100M",
+      "population_over_50M"
+    ],
+    "finland": [
+      "has_coastline",
+      "has_conscription",
+      "has_universal_healthcare",
+      "is_EU_member",
+      "is_NATO_member",
+      "is_OECD_member",
+      "is_UN_member",
+      "is_democracy",
+      "is_in_europe",
+      "is_republic",
+      "uses_euro"
+    ],
+    "france": [
+      "gdp_top_20",
+      "has_coastline",
+      "has_high_speed_rail",
+      "has_nuclear_weapons",
+      "has_space_program",
+      "has_universal_healthcare",
+      "is_EU_member",
+      "is_G7",
+      "is_NATO_founder",
+      "is_NATO_member",
+      "is_OECD_member",
+      "is_UN_member",
+      "is_democracy",
+      "is_in_europe",
+      "is_republic",
+      "population_over_50M",
+      "uses_euro"
+    ],
+    "germany": [
+      "gdp_top_20",
+      "has_coastline",
+      "has_high_speed_rail",
+      "has_universal_healthcare",
+      "is_EU_member",
+      "is_G7",
+      "is_NATO_member",
+      "is_OECD_member",
+      "is_UN_member",
+      "is_democracy",
+      "is_federal_state",
+      "is_in_europe",
+      "is_republic",
+      "population_over_50M",
+      "uses_euro"
+    ],
+    "greece": [
+      "has_coastline",
+      "has_conscription",
+      "has_universal_healthcare",
+      "is_EU_member",
+      "is_NATO_member",
+      "is_OECD_member",
+      "is_UN_member",
+      "is_democracy",
+      "is_in_europe",
+      "is_republic",
+      "uses_euro"
+    ],
+    "india": [
+      "gdp_top_20",
+      "has_coastline",
+      "has_death_penalty",
+      "has_nuclear_weapons",
+      "has_official_english",
+      "has_space_program",
+      "has_tropical_climate",
+      "is_BRICS_member",
+      "is_UN_member",
+      "is_commonwealth",
+      "is_democracy",
+      "is_federal_state",
+      "is_in_asia",
+      "is_republic",
+      "population_over_100M",
+      "population_over_50M"
+    ],
+    "indonesia": [
+      "gdp_top_20",
+      "has_coastline",
+      "has_tropical_climate",
+      "is_UN_member",
+      "is_democracy",
+      "is_in_asia",
+      "is_island_nation",
+      "is_republic",
+      "population_over_100M",
+      "population_over_50M"
+    ],
+    "iran": [
+      "has_coastline",
+      "has_conscription",
+      "has_death_penalty",
+      "is_OPEC_member",
+      "is_UN_member",
+      "is_in_asia",
+      "is_republic",
+      "population_over_50M"
+    ],
+    "ireland": [
+      "has_coastline",
+      "has_official_english",
+      "has_universal_healthcare",
+      "is_EU_member",
+      "is_OECD_member",
+      "is_UN_member",
+      "is_democracy",
+      "is_in_europe",
+      "is_island_nation",
+      "is_republic",
+      "uses_euro"
+    ],
+    "israel": [
+      "has_coastline",
+      "has_conscription",
+      "has_nuclear_weapons",
+      "has_space_program",
+      "has_universal_healthcare",
+      "is_OECD_member",
+      "is_UN_member",
+      "is_democracy",
+      "is_in_asia",
+      "is_republic"
+    ],
+    "italy": [
+      "gdp_top_20",
+      "has_coastline",
+      "has_high_speed_rail",
+      "has_universal_healthcare",
+      "is_EU_member",
+      "is_G7",
+      "is_NATO_founder",
+      "is_NATO_member",
+      "is_OECD_member",
+      "is_UN_member",
+      "is_democracy",
+      "is_in_europe",
+      "is_republic",
+      "population_over_50M",
+      "uses_euro"
+    ],
+    "japan": [
+      "gdp_top_20",
+      "has_coastline",
+      "has_high_speed_rail",
+      "has_space_program",
+      "has_universal_healthcare",
+      "is_G7",
+      "is_OECD_member",
+      "is_UN_member",
+      "is_democracy",
+      "is_in_asia",
+      "is_island_nation",
+      "is_monarchy",
+      "population_over_100M",
+      "population_over_50M"
+    ],
+    "kenya": [
+      "has_coastline",
+      "has_official_english",
+      "has_tropical_climate",
+      "is_UN_member",
+      "is_commonwealth",
+      "is_democracy",
+      "is_republic",
+      "population_over_50M"
+    ],
+    "mexico": [
+      "gdp_top_20",
+      "has_coastline",
+      "has_death_penalty",
+      "is_OECD_member",
+      "is_UN_member",
+      "is_democracy",
+      "is_federal_state",
+      "is_republic",
+      "population_over_100M",
+      "population_over_50M"
+    ],
+    "morocco": [
+      "has_coastline",
+      "has_conscription",
+      "is_UN_member",
+      "is_monarchy"
+    ],
+    "netherlands": [
+      "gdp_top_20",
+      "has_coastline",
+      "has_high_speed_rail",
+      "has_universal_healthcare",
+      "is_EU_member",
+      "is_NATO_founder",
+      "is_NATO_member",
+      "is_OECD_member",
+      "is_UN_member",
+      "is_democracy",
+      "is_in_europe",
+      "is_monarchy",
+      "uses_euro"
+    ],
+    "new_zealand": [
+      "has_coastline",
+      "has_official_english",
+      "has_universal_healthcare",
+      "is_OECD_member",
+      "is_UN_member",
+      "is_commonwealth",
+      "is_democracy",
+      "is_island_nation",
+      "is_monarchy"
+    ],
+    "nigeria": [
+      "has_coastline",
+      "has_death_penalty",
+      "has_official_english",
+      "has_tropical_climate",
+      "is_OPEC_member",
+      "is_UN_member",
+      "is_commonwealth",
+      "is_democracy",
+      "is_federal_state",
+      "is_republic",
+      "population_over_100M",
+      "population_over_50M"
+    ],
+    "norway": [
+      "has_coastline",
+      "has_conscription",
+      "has_universal_healthcare",
+      "is_NATO_founder",
+      "is_NATO_member",
+      "is_OECD_member",
+      "is_UN_member",
+      "is_democracy",
+      "is_in_europe",
+      "is_monarchy"
+    ],
+    "pakistan": [
+      "has_coastline",
+      "has_death_penalty",
+      "has_nuclear_weapons",
+      "has_official_english",
+      "is_UN_member",
+      "is_commonwealth",
+      "is_federal_state",
+      "is_in_asia",
+      "is_republic",
+      "population_over_100M",
+      "population_over_50M"
+    ],
+    "peru": [
+      "has_coastline",
+      "is_UN_member",
+      "is_democracy",
+      "is_republic"
+    ],
+    "philippines": [
+      "has_coastline",
+      "has_death_penalty",
+      "has_official_english",
+      "has_tropical_climate",
+      "is_UN_member",
+      "is_democracy",
+      "is_in_asia",
+      "is_island_nation",
+      "is_republic",
+      "population_over_100M",
+      "population_over_50M"
+    ],
+    "poland": [
+      "has_coastline",
+      "has_universal_healthcare",
+      "is_EU_member",
+      "is_NATO_member",
+      "is_OECD_member",
+      "is_UN_member",
+      "is_democracy",
+      "is_in_europe",
+      "is_republic"
+    ],
+    "portugal": [
+      "has_coastline",
+      "has_universal_healthcare",
+      "is_EU_member",
+      "is_NATO_founder",
+      "is_NATO_member",
+      "is_OECD_member",
+      "is_UN_member",
+      "is_democracy",
+      "is_in_europe",
+      "is_republic",
+      "uses_euro"
+    ],
+    "russia": [
+      "gdp_top_20",
+      "has_coastline",
+      "has_conscription",
+      "has_death_penalty",
+      "has_nuclear_weapons",
+      "has_space_program",
+      "is_BRICS_member",
+      "is_UN_member",
+      "is_federal_state",
+      "is_in_asia",
+      "is_in_europe",
+      "is_republic",
+      "population_over_100M",
+      "population_over_50M"
+    ],
+    "saudi_arabia": [
+      "gdp_top_20",
+      "has_coastline",
+      "has_death_penalty",
+      "is_OPEC_member",
+      "is_UN_member",
+      "is_in_asia",
+      "is_monarchy"
+    ],
+    "singapore": [
+      "has_coastline",
+      "has_death_penalty",
+      "has_official_english",
+      "is_UN_member",
+      "is_commonwealth",
+      "is_democracy",
+      "is_in_asia",
+      "is_island_nation",
+      "is_republic"
+    ],
+    "south_africa": [
+      "has_coastline",
+      "has_official_english",
+      "is_BRICS_member",
+      "is_UN_member",
+      "is_commonwealth",
+      "is_democracy",
+      "is_republic",
+      "population_over_50M"
+    ],
+    "south_korea": [
+      "gdp_top_20",
+      "has_coastline",
+      "has_conscription",
+      "has_high_speed_rail",
+      "is_OECD_member",
+      "is_UN_member",
+      "is_democracy",
+      "is_in_asia",
+      "is_republic",
+      "population_over_50M"
+    ],
+    "spain": [
+      "gdp_top_20",
+      "has_coastline",
+      "has_high_speed_rail",
+      "has_universal_healthcare",
+      "is_EU_member",
+      "is_NATO_member",
+      "is_OECD_member",
+      "is_UN_member",
+      "is_democracy",
+      "is_in_europe",
+      "is_monarchy",
+      "uses_euro"
+    ],
+    "sweden": [
+      "has_coastline",
+      "has_universal_healthcare",
+      "is_EU_member",
+      "is_NATO_member",
+      "is_OECD_member",
+      "is_UN_member",
+      "is_democracy",
+      "is_in_europe",
+      "is_monarchy"
+    ],
+    "switzerland": [
+      "gdp_top_20",
+      "has_universal_healthcare",
+      "is_OECD_member",
+      "is_UN_member",
+      "is_democracy",
+      "is_federal_state",
+      "is_in_europe",
+      "is_republic",
+      "landlocked"
+    ],
+    "thailand": [
+      "has_coastline",
+      "has_conscription",
+      "has_tropical_climate",
+      "is_UN_member",
+      "is_democracy",
+      "is_in_asia",
+      "is_monarchy",
+      "population_over_50M"
+    ],
+    "turkey": [
+      "gdp_top_20",
+      "has_coastline",
+      "has_conscription",
+      "is_NATO_member",
+      "is_OECD_member",
+      "is_UN_member",
+      "is_in_asia",
+      "is_republic",
+      "population_over_50M"
+    ],
+    "united_kingdom": [
+      "gdp_top_20",
+      "has_coastline",
+      "has_high_speed_rail",
+      "has_nuclear_weapons",
+      "has_official_english",
+      "has_universal_healthcare",
+      "is_G7",
+      "is_NATO_founder",
+      "is_NATO_member",
+      "is_OECD_member",
+      "is_UN_member",
+      "is_commonwealth",
+      "is_democracy",
+      "is_in_europe",
+      "is_island_nation",
+      "is_monarchy",
+      "population_over_50M"
+    ],
+    "united_states": [
+      "gdp_top_20",
+      "has_coastline",
+      "has_death_penalty",
+      "has_nuclear_weapons",
+      "has_space_program",
+      "is_G7",
+      "is_NATO_founder",
+      "is_NATO_member",
+      "is_OECD_member",
+      "is_UN_member",
+      "is_democracy",
+      "is_federal_state",
+      "is_republic",
+      "population_over_100M",
+      "population_over_50M"
+    ],
+    "venezuela": [
+      "has_coastline",
+      "has_tropical_climate",
+      "is_OPEC_member",
+      "is_UN_member",
+      "is_republic"
+    ]
+  },
+  "ambiguity_notes": {
+    "australia/is_island_nation": "Continent-island. Conventionally classified as continent, not island nation. Coded NO.",
+    "austria/landlocked": "Landlocked, no coastline. Coded YES.",
+    "canada/is_monarchy": "Constitutional monarchy; King Charles III as head of state. Coded YES.",
+    "ethiopia/landlocked": "Landlocked since Eritrea independence (1993). Not coded as landlocked because 'landlocked' was not in the original 15 attrs and Ethiopia lacks 'has_coastline'. In 30-attr version, Ethiopia IS landlocked (no has_coastline, YES landlocked).",
+    "india/is_BRICS_member": "Founding BRICS member (2006). Coded YES.",
+    "ireland/is_island_nation": "Republic of Ireland shares island with Northern Ireland (UK). Conventionally treated as island nation. Coded YES.",
+    "israel/has_nuclear_weapons": "Widely believed to possess ~90 warheads but never officially confirmed ('nuclear ambiguity' policy). Coded YES per intelligence consensus.",
+    "japan/is_monarchy": "Constitutional monarchy; Emperor is ceremonial head of state. Coded YES.",
+    "japan/is_republic": "Constitutional monarchy with Emperor. Coded NO (not a republic).",
+    "nigeria/is_democracy": "Regular elections with civilian government since 1999. Significant governance challenges. EIU 2024 ~4.1 (hybrid regime). Coded YES—borderline decision; multiparty elections are held.",
+    "pakistan/has_official_english": "English is co-official per Article 251 of constitution (alongside Urdu). Coded YES.",
+    "russia/has_death_penalty": "Moratorium since 1996 but not abolished. Coded YES (on books).",
+    "russia/is_in_asia": "Transcontinental; ~77% of territory in Asia. Coded YES.",
+    "russia/is_in_europe": "Transcontinental; capital Moscow in Europe, ~23% of territory in Europe. Coded YES—conventionally European in geopolitical context.",
+    "saudi_arabia/is_OPEC_member": "Founding OPEC member (1960). Coded YES.",
+    "singapore/is_democracy": "One-party dominance (PAP) since independence. EIU 2024: flawed democracy (~6.0). Coded YES.",
+    "spain/population_over_50M": "~48M in 2024, just under 50M threshold. Coded NO.",
+    "switzerland/gdp_top_20": "~$900B GDP, roughly #20 globally. Edge case at the boundary. Coded YES.",
+    "switzerland/landlocked": "Landlocked, no coastline. Coded YES.",
+    "thailand/is_democracy": "Civilian government restored after 2023 elections. Military influence persists. EIU 2024 ~6.5 (flawed democracy). Coded YES.",
+    "turkey/is_NATO_founder": "Joined NATO 1952, not founding 1949. Coded NO... wait, Turkey joined in 1952. Coded NO for is_NATO_founder.",
+    "turkey/is_democracy": "Formally democratic with elections. EIU 2024 classifies as hybrid regime (score ~4.4). Coded NO.",
+    "turkey/is_in_europe": "Transcontinental; ~3% in Europe (Thrace), ~97% in Asia. Coded NO for is_in_europe—geographic majority in Asia.",
+    "united_kingdom/is_republic": "Constitutional monarchy. Coded NO.",
+    "united_states/has_death_penalty": "Federal death penalty exists; most executions at state level. Coded YES.",
+    "united_states/has_official_english": "No official language at federal level. English is de facto but not de jure. Coded NO."
+  },
+  "canonical_basis": [
+    {
+      "premise": [],
+      "conclusion": [
+        "is_UN_member"
+      ]
+    },
+    {
+      "premise": [
+        "is_OPEC_member",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "is_OPEC_member",
+        "is_UN_member"
+      ]
+    },
+    {
+      "premise": [
+        "is_UN_member",
+        "uses_euro"
+      ],
+      "conclusion": [
+        "has_universal_healthcare",
+        "is_EU_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe",
+        "uses_euro"
+      ]
+    },
+    {
+      "premise": [
+        "has_conscription",
+        "is_UN_member",
+        "is_federal_state"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_conscription",
+        "is_UN_member",
+        "is_federal_state",
+        "is_republic"
+      ]
+    },
+    {
+      "premise": [
+        "has_conscription",
+        "has_tropical_climate",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_conscription",
+        "has_tropical_climate",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_asia",
+        "is_monarchy",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_tropical_climate",
+        "is_UN_member",
+        "is_federal_state"
+      ],
+      "conclusion": [
+        "has_tropical_climate",
+        "is_UN_member",
+        "is_federal_state",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "is_BRICS_member",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "is_BRICS_member",
+        "is_UN_member",
+        "is_republic",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_high_speed_rail",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_high_speed_rail",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy"
+      ]
+    },
+    {
+      "premise": [
+        "is_NATO_founder",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "is_NATO_founder",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy"
+      ]
+    },
+    {
+      "premise": [
+        "has_death_penalty",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_death_penalty",
+        "is_UN_member"
+      ]
+    },
+    {
+      "premise": [
+        "is_UN_member",
+        "is_commonwealth"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_official_english",
+        "is_UN_member",
+        "is_commonwealth"
+      ]
+    },
+    {
+      "premise": [
+        "has_space_program",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_space_program",
+        "is_UN_member"
+      ]
+    },
+    {
+      "premise": [
+        "is_OECD_member",
+        "is_UN_member",
+        "is_federal_state"
+      ],
+      "conclusion": [
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_federal_state"
+      ]
+    },
+    {
+      "premise": [
+        "has_tropical_climate",
+        "is_OECD_member",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_conscription",
+        "has_death_penalty",
+        "has_high_speed_rail",
+        "has_nuclear_weapons",
+        "has_official_english",
+        "has_space_program",
+        "has_tropical_climate",
+        "has_universal_healthcare",
+        "is_BRICS_member",
+        "is_EU_member",
+        "is_G7",
+        "is_NATO_founder",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_OPEC_member",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_democracy",
+        "is_federal_state",
+        "is_in_asia",
+        "is_in_europe",
+        "is_island_nation",
+        "is_monarchy",
+        "is_republic",
+        "landlocked",
+        "population_over_100M",
+        "population_over_50M",
+        "uses_euro"
+      ]
+    },
+    {
+      "premise": [
+        "has_universal_healthcare",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "has_universal_healthcare",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy"
+      ]
+    },
+    {
+      "premise": [
+        "is_UN_member",
+        "landlocked"
+      ],
+      "conclusion": [
+        "is_UN_member",
+        "is_republic",
+        "landlocked"
+      ]
+    },
+    {
+      "premise": [
+        "has_conscription",
+        "is_UN_member",
+        "is_republic",
+        "landlocked"
+      ],
+      "conclusion": [
+        "has_conscription",
+        "has_universal_healthcare",
+        "is_EU_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe",
+        "is_republic",
+        "landlocked",
+        "uses_euro"
+      ]
+    },
+    {
+      "premise": [
+        "has_tropical_climate",
+        "is_UN_member",
+        "is_republic",
+        "landlocked"
+      ],
+      "conclusion": [
+        "has_tropical_climate",
+        "is_BRICS_member",
+        "is_UN_member",
+        "is_federal_state",
+        "is_republic",
+        "landlocked",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "is_OECD_member",
+        "is_UN_member",
+        "is_republic",
+        "landlocked"
+      ],
+      "conclusion": [
+        "has_universal_healthcare",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe",
+        "is_republic",
+        "landlocked"
+      ]
+    },
+    {
+      "premise": [
+        "has_official_english",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_official_english",
+        "is_UN_member"
+      ]
+    },
+    {
+      "premise": [
+        "is_UN_member",
+        "is_monarchy"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "is_UN_member",
+        "is_monarchy"
+      ]
+    },
+    {
+      "premise": [
+        "has_tropical_climate",
+        "is_UN_member",
+        "is_democracy"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_tropical_climate",
+        "is_UN_member",
+        "is_democracy",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_federal_state",
+        "is_republic"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_federal_state",
+        "is_republic"
+      ]
+    },
+    {
+      "premise": [
+        "is_UN_member",
+        "is_democracy",
+        "is_republic",
+        "landlocked"
+      ],
+      "conclusion": [
+        "has_universal_healthcare",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe",
+        "is_republic",
+        "landlocked"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_conscription",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_conscription",
+        "is_UN_member",
+        "is_in_asia",
+        "is_republic",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_tropical_climate",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_tropical_climate",
+        "is_UN_member",
+        "is_democracy",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "is_UN_member",
+        "is_republic",
+        "landlocked"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_universal_healthcare",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_federal_state",
+        "is_in_europe",
+        "is_republic",
+        "landlocked"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_universal_healthcare",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_republic"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_universal_healthcare",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe",
+        "is_republic"
+      ]
+    },
+    {
+      "premise": [
+        "is_UN_member",
+        "population_over_100M"
+      ],
+      "conclusion": [
+        "is_UN_member",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_conscription",
+        "is_UN_member",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_conscription",
+        "is_UN_member",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "is_UN_member",
+        "is_federal_state",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "is_UN_member",
+        "is_federal_state",
+        "is_republic",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "is_OECD_member",
+        "is_UN_member",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "is_OECD_member",
+        "is_UN_member",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "is_BRICS_member",
+        "is_UN_member",
+        "is_federal_state",
+        "is_republic",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "is_BRICS_member",
+        "is_UN_member",
+        "is_federal_state",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_tropical_climate",
+        "is_BRICS_member",
+        "is_UN_member",
+        "is_republic",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "has_tropical_climate",
+        "is_BRICS_member",
+        "is_UN_member",
+        "is_federal_state",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "is_UN_member",
+        "is_republic",
+        "landlocked",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "has_tropical_climate",
+        "is_BRICS_member",
+        "is_UN_member",
+        "is_federal_state",
+        "is_republic",
+        "landlocked",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "is_UN_member",
+        "is_democracy",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "is_UN_member",
+        "is_democracy",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "is_UN_member",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "is_UN_member",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_tropical_climate",
+        "is_UN_member",
+        "population_over_100M",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "has_tropical_climate",
+        "is_UN_member",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_nuclear_weapons",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_nuclear_weapons",
+        "is_UN_member"
+      ]
+    },
+    {
+      "premise": [
+        "is_G7",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "is_G7",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy"
+      ]
+    },
+    {
+      "premise": [
+        "is_EU_member",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "has_universal_healthcare",
+        "is_EU_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe"
+      ]
+    },
+    {
+      "premise": [
+        "is_NATO_member",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member"
+      ]
+    },
+    {
+      "premise": [
+        "is_UN_member",
+        "is_island_nation"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "is_UN_member",
+        "is_island_nation"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_conscription",
+        "is_OPEC_member",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_conscription",
+        "is_OPEC_member",
+        "is_UN_member",
+        "is_republic"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "is_OPEC_member",
+        "is_UN_member",
+        "is_federal_state"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_death_penalty",
+        "has_official_english",
+        "has_tropical_climate",
+        "is_OPEC_member",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_democracy",
+        "is_federal_state",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_tropical_climate",
+        "is_OPEC_member",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_tropical_climate",
+        "is_OPEC_member",
+        "is_UN_member",
+        "is_republic"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_conscription",
+        "has_death_penalty",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_conscription",
+        "has_death_penalty",
+        "is_UN_member",
+        "is_republic",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_death_penalty",
+        "is_UN_member",
+        "is_federal_state"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_death_penalty",
+        "is_UN_member",
+        "is_federal_state",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_death_penalty",
+        "has_tropical_climate",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_death_penalty",
+        "has_official_english",
+        "has_tropical_climate",
+        "is_UN_member",
+        "is_democracy",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_space_program",
+        "is_OPEC_member",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_conscription",
+        "has_death_penalty",
+        "has_high_speed_rail",
+        "has_nuclear_weapons",
+        "has_official_english",
+        "has_space_program",
+        "has_tropical_climate",
+        "has_universal_healthcare",
+        "is_BRICS_member",
+        "is_EU_member",
+        "is_G7",
+        "is_NATO_founder",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_OPEC_member",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_democracy",
+        "is_federal_state",
+        "is_in_asia",
+        "is_in_europe",
+        "is_island_nation",
+        "is_monarchy",
+        "is_republic",
+        "landlocked",
+        "population_over_100M",
+        "population_over_50M",
+        "uses_euro"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_conscription",
+        "has_space_program",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_conscription",
+        "has_nuclear_weapons",
+        "has_space_program",
+        "is_UN_member",
+        "is_in_asia",
+        "is_republic"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_space_program",
+        "is_UN_member",
+        "is_federal_state"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_space_program",
+        "is_UN_member",
+        "is_federal_state",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_space_program",
+        "has_tropical_climate",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_space_program",
+        "has_tropical_climate",
+        "is_BRICS_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_federal_state",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_death_penalty",
+        "has_space_program",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_death_penalty",
+        "has_nuclear_weapons",
+        "has_space_program",
+        "is_UN_member",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "is_OECD_member",
+        "is_OPEC_member",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_conscription",
+        "has_death_penalty",
+        "has_high_speed_rail",
+        "has_nuclear_weapons",
+        "has_official_english",
+        "has_space_program",
+        "has_tropical_climate",
+        "has_universal_healthcare",
+        "is_BRICS_member",
+        "is_EU_member",
+        "is_G7",
+        "is_NATO_founder",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_OPEC_member",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_democracy",
+        "is_federal_state",
+        "is_in_asia",
+        "is_in_europe",
+        "is_island_nation",
+        "is_monarchy",
+        "is_republic",
+        "landlocked",
+        "population_over_100M",
+        "population_over_50M",
+        "uses_euro"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_death_penalty",
+        "is_OECD_member",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_death_penalty",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_federal_state",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_space_program",
+        "is_OECD_member",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_space_program",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_death_penalty",
+        "is_OPEC_member",
+        "is_UN_member",
+        "is_republic"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_death_penalty",
+        "is_OPEC_member",
+        "is_UN_member",
+        "is_republic",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "is_UN_member",
+        "is_republic",
+        "landlocked"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_conscription",
+        "has_death_penalty",
+        "has_high_speed_rail",
+        "has_nuclear_weapons",
+        "has_official_english",
+        "has_space_program",
+        "has_tropical_climate",
+        "has_universal_healthcare",
+        "is_BRICS_member",
+        "is_EU_member",
+        "is_G7",
+        "is_NATO_founder",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_OPEC_member",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_democracy",
+        "is_federal_state",
+        "is_in_asia",
+        "is_in_europe",
+        "is_island_nation",
+        "is_monarchy",
+        "is_republic",
+        "landlocked",
+        "population_over_100M",
+        "population_over_50M",
+        "uses_euro"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_official_english",
+        "is_OPEC_member",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_death_penalty",
+        "has_official_english",
+        "has_tropical_climate",
+        "is_OPEC_member",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_democracy",
+        "is_federal_state",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_conscription",
+        "has_official_english",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_conscription",
+        "has_death_penalty",
+        "has_high_speed_rail",
+        "has_nuclear_weapons",
+        "has_official_english",
+        "has_space_program",
+        "has_tropical_climate",
+        "has_universal_healthcare",
+        "is_BRICS_member",
+        "is_EU_member",
+        "is_G7",
+        "is_NATO_founder",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_OPEC_member",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_democracy",
+        "is_federal_state",
+        "is_in_asia",
+        "is_in_europe",
+        "is_island_nation",
+        "is_monarchy",
+        "is_republic",
+        "landlocked",
+        "population_over_100M",
+        "population_over_50M",
+        "uses_euro"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_official_english",
+        "is_UN_member",
+        "is_federal_state"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_official_english",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_federal_state"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_official_english",
+        "has_tropical_climate",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_official_english",
+        "has_tropical_climate",
+        "is_UN_member",
+        "is_democracy",
+        "is_republic",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_death_penalty",
+        "has_official_english",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_death_penalty",
+        "has_official_english",
+        "is_UN_member",
+        "is_republic"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_official_english",
+        "has_space_program",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_death_penalty",
+        "has_nuclear_weapons",
+        "has_official_english",
+        "has_space_program",
+        "has_tropical_climate",
+        "is_BRICS_member",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_democracy",
+        "is_federal_state",
+        "is_in_asia",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_official_english",
+        "is_OECD_member",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_official_english",
+        "has_universal_healthcare",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_official_english",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_federal_state",
+        "is_republic"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_death_penalty",
+        "has_official_english",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_federal_state",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "is_OPEC_member",
+        "is_UN_member",
+        "is_monarchy"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_death_penalty",
+        "is_OPEC_member",
+        "is_UN_member",
+        "is_in_asia",
+        "is_monarchy"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "is_UN_member",
+        "is_federal_state",
+        "is_monarchy"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_universal_healthcare",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_federal_state",
+        "is_monarchy"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_tropical_climate",
+        "is_UN_member",
+        "is_monarchy"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_conscription",
+        "has_tropical_climate",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_asia",
+        "is_monarchy",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_death_penalty",
+        "is_UN_member",
+        "is_monarchy"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_death_penalty",
+        "is_OPEC_member",
+        "is_UN_member",
+        "is_in_asia",
+        "is_monarchy"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_space_program",
+        "is_UN_member",
+        "is_monarchy"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_high_speed_rail",
+        "has_space_program",
+        "has_universal_healthcare",
+        "is_G7",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_asia",
+        "is_island_nation",
+        "is_monarchy",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_monarchy"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_universal_healthcare",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_monarchy"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "is_UN_member",
+        "is_monarchy",
+        "is_republic"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_conscription",
+        "has_death_penalty",
+        "has_high_speed_rail",
+        "has_nuclear_weapons",
+        "has_official_english",
+        "has_space_program",
+        "has_tropical_climate",
+        "has_universal_healthcare",
+        "is_BRICS_member",
+        "is_EU_member",
+        "is_G7",
+        "is_NATO_founder",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_OPEC_member",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_democracy",
+        "is_federal_state",
+        "is_in_asia",
+        "is_in_europe",
+        "is_island_nation",
+        "is_monarchy",
+        "is_republic",
+        "landlocked",
+        "population_over_100M",
+        "population_over_50M",
+        "uses_euro"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_official_english",
+        "is_UN_member",
+        "is_monarchy"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_official_english",
+        "has_universal_healthcare",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_democracy",
+        "is_monarchy"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "is_OPEC_member",
+        "is_UN_member",
+        "is_democracy"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_death_penalty",
+        "has_official_english",
+        "has_tropical_climate",
+        "is_OPEC_member",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_democracy",
+        "is_federal_state",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_death_penalty",
+        "is_UN_member",
+        "is_democracy"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_death_penalty",
+        "is_UN_member",
+        "is_democracy",
+        "is_republic"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_conscription",
+        "has_high_speed_rail",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_conscription",
+        "has_high_speed_rail",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_asia",
+        "is_republic",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_high_speed_rail",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_federal_state"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_high_speed_rail",
+        "has_universal_healthcare",
+        "is_EU_member",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_federal_state",
+        "is_in_europe",
+        "uses_euro"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_high_speed_rail",
+        "has_space_program",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_high_speed_rail",
+        "has_space_program",
+        "has_universal_healthcare",
+        "is_G7",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_high_speed_rail",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_republic"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_high_speed_rail",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_republic",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_space_program",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_republic"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_nuclear_weapons",
+        "has_space_program",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_republic"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_high_speed_rail",
+        "has_official_english",
+        "has_universal_healthcare",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_high_speed_rail",
+        "has_nuclear_weapons",
+        "has_official_english",
+        "has_universal_healthcare",
+        "is_G7",
+        "is_NATO_founder",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_democracy",
+        "is_in_europe",
+        "is_island_nation",
+        "is_monarchy",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_official_english",
+        "has_universal_healthcare",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_democracy"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_official_english",
+        "has_universal_healthcare",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_democracy",
+        "is_monarchy"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_official_english",
+        "has_universal_healthcare",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_republic"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_official_english",
+        "has_universal_healthcare",
+        "is_EU_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe",
+        "is_island_nation",
+        "is_republic",
+        "uses_euro"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_conscription",
+        "has_universal_healthcare",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_monarchy"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_conscription",
+        "has_universal_healthcare",
+        "is_NATO_founder",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe",
+        "is_monarchy"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_official_english",
+        "has_universal_healthcare",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_democracy",
+        "is_federal_state",
+        "is_monarchy"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_official_english",
+        "has_universal_healthcare",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_democracy",
+        "is_federal_state",
+        "is_monarchy"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_coastline",
+        "is_OPEC_member",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_death_penalty",
+        "is_OPEC_member",
+        "is_UN_member",
+        "is_in_asia",
+        "is_monarchy"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_space_program",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_space_program",
+        "is_UN_member",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_coastline",
+        "is_UN_member",
+        "is_republic"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "is_UN_member",
+        "is_republic",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_official_english",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_official_english",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_democracy"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_coastline",
+        "is_UN_member",
+        "is_democracy",
+        "is_monarchy"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_universal_healthcare",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_monarchy"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_universal_healthcare",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_federal_state",
+        "is_monarchy"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_official_english",
+        "has_universal_healthcare",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_democracy",
+        "is_federal_state",
+        "is_monarchy"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "is_OPEC_member",
+        "is_UN_member",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_death_penalty",
+        "is_OPEC_member",
+        "is_UN_member",
+        "is_republic",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_tropical_climate",
+        "is_UN_member",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_tropical_climate",
+        "is_UN_member",
+        "is_democracy",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_death_penalty",
+        "is_UN_member",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_death_penalty",
+        "is_UN_member",
+        "is_republic",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_space_program",
+        "is_UN_member",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_space_program",
+        "is_UN_member",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_conscription",
+        "is_UN_member",
+        "is_federal_state",
+        "is_republic",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_conscription",
+        "has_death_penalty",
+        "has_nuclear_weapons",
+        "has_space_program",
+        "is_BRICS_member",
+        "is_UN_member",
+        "is_federal_state",
+        "is_in_asia",
+        "is_in_europe",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_conscription",
+        "is_BRICS_member",
+        "is_UN_member",
+        "is_republic",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_conscription",
+        "has_death_penalty",
+        "has_nuclear_weapons",
+        "has_space_program",
+        "is_BRICS_member",
+        "is_UN_member",
+        "is_in_asia",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_conscription",
+        "has_death_penalty",
+        "is_OPEC_member",
+        "is_UN_member",
+        "is_republic",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_conscription",
+        "has_death_penalty",
+        "is_OPEC_member",
+        "is_UN_member",
+        "is_in_asia",
+        "is_republic",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_death_penalty",
+        "is_BRICS_member",
+        "is_UN_member",
+        "is_republic",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_death_penalty",
+        "has_nuclear_weapons",
+        "has_space_program",
+        "is_BRICS_member",
+        "is_UN_member",
+        "is_in_asia",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_official_english",
+        "is_BRICS_member",
+        "is_UN_member",
+        "is_republic",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_official_english",
+        "is_BRICS_member",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_democracy",
+        "is_republic",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_death_penalty",
+        "has_official_english",
+        "is_UN_member",
+        "is_republic",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_death_penalty",
+        "has_official_english",
+        "is_UN_member",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "is_UN_member",
+        "is_monarchy",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "is_UN_member",
+        "is_democracy",
+        "is_monarchy",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_conscription",
+        "is_UN_member",
+        "is_democracy",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_conscription",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_asia",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_death_penalty",
+        "is_UN_member",
+        "is_democracy",
+        "is_republic",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_death_penalty",
+        "is_UN_member",
+        "is_democracy",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_coastline",
+        "is_BRICS_member",
+        "is_UN_member",
+        "is_republic",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_space_program",
+        "is_BRICS_member",
+        "is_UN_member",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_death_penalty",
+        "is_UN_member",
+        "is_republic",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_death_penalty",
+        "is_UN_member",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_space_program",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_space_program",
+        "is_G7",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_universal_healthcare",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_high_speed_rail",
+        "has_universal_healthcare",
+        "is_G7",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_official_english",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_democracy",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_nuclear_weapons",
+        "has_official_english",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_democracy",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_conscription",
+        "is_UN_member",
+        "population_over_100M",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_conscription",
+        "has_death_penalty",
+        "is_UN_member",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "is_BRICS_member",
+        "is_UN_member",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_space_program",
+        "is_BRICS_member",
+        "is_UN_member",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_death_penalty",
+        "is_OPEC_member",
+        "is_UN_member",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_death_penalty",
+        "has_official_english",
+        "has_tropical_climate",
+        "is_OPEC_member",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_democracy",
+        "is_federal_state",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_official_english",
+        "is_UN_member",
+        "population_over_100M",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_death_penalty",
+        "has_official_english",
+        "is_UN_member",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_death_penalty",
+        "has_official_english",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_death_penalty",
+        "has_official_english",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_federal_state",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_death_penalty",
+        "has_official_english",
+        "is_UN_member",
+        "is_democracy",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_death_penalty",
+        "has_official_english",
+        "has_tropical_climate",
+        "is_UN_member",
+        "is_democracy",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "is_UN_member",
+        "is_democracy",
+        "is_monarchy",
+        "population_over_100M",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_high_speed_rail",
+        "has_space_program",
+        "has_universal_healthcare",
+        "is_G7",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_asia",
+        "is_island_nation",
+        "is_monarchy",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_coastline",
+        "is_OECD_member",
+        "is_UN_member",
+        "population_over_100M",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_high_speed_rail",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "population_over_100M",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_high_speed_rail",
+        "has_space_program",
+        "has_universal_healthcare",
+        "is_G7",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_asia",
+        "is_island_nation",
+        "is_monarchy",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_tropical_climate",
+        "is_UN_member",
+        "is_democracy",
+        "is_federal_state",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_space_program",
+        "has_tropical_climate",
+        "is_BRICS_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_federal_state",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_death_penalty",
+        "is_UN_member",
+        "is_democracy",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_death_penalty",
+        "is_UN_member",
+        "is_democracy",
+        "is_federal_state",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_space_program",
+        "is_UN_member",
+        "is_democracy",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_space_program",
+        "is_UN_member",
+        "is_democracy",
+        "is_federal_state",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_space_program",
+        "is_BRICS_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_federal_state",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_space_program",
+        "has_tropical_climate",
+        "is_BRICS_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_federal_state",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_coastline",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_death_penalty",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_federal_state",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_nuclear_weapons",
+        "is_OPEC_member",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_conscription",
+        "has_death_penalty",
+        "has_high_speed_rail",
+        "has_nuclear_weapons",
+        "has_official_english",
+        "has_space_program",
+        "has_tropical_climate",
+        "has_universal_healthcare",
+        "is_BRICS_member",
+        "is_EU_member",
+        "is_G7",
+        "is_NATO_founder",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_OPEC_member",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_democracy",
+        "is_federal_state",
+        "is_in_asia",
+        "is_in_europe",
+        "is_island_nation",
+        "is_monarchy",
+        "is_republic",
+        "landlocked",
+        "population_over_100M",
+        "population_over_50M",
+        "uses_euro"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_conscription",
+        "has_nuclear_weapons",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_conscription",
+        "has_nuclear_weapons",
+        "has_space_program",
+        "is_UN_member",
+        "is_in_asia",
+        "is_republic"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_nuclear_weapons",
+        "is_UN_member",
+        "is_federal_state"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_death_penalty",
+        "has_nuclear_weapons",
+        "is_UN_member",
+        "is_federal_state",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_nuclear_weapons",
+        "has_tropical_climate",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_death_penalty",
+        "has_nuclear_weapons",
+        "has_official_english",
+        "has_space_program",
+        "has_tropical_climate",
+        "is_BRICS_member",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_democracy",
+        "is_federal_state",
+        "is_in_asia",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_death_penalty",
+        "has_nuclear_weapons",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_death_penalty",
+        "has_nuclear_weapons",
+        "is_UN_member",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_nuclear_weapons",
+        "has_space_program",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_nuclear_weapons",
+        "has_space_program",
+        "is_UN_member",
+        "is_republic"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_nuclear_weapons",
+        "is_OECD_member",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_nuclear_weapons",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_nuclear_weapons",
+        "has_official_english",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_nuclear_weapons",
+        "has_official_english",
+        "is_UN_member",
+        "is_commonwealth",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_nuclear_weapons",
+        "is_UN_member",
+        "is_monarchy"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_high_speed_rail",
+        "has_nuclear_weapons",
+        "has_official_english",
+        "has_universal_healthcare",
+        "is_G7",
+        "is_NATO_founder",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_democracy",
+        "is_in_europe",
+        "is_island_nation",
+        "is_monarchy",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_high_speed_rail",
+        "has_nuclear_weapons",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_high_speed_rail",
+        "has_nuclear_weapons",
+        "has_universal_healthcare",
+        "is_G7",
+        "is_NATO_founder",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_nuclear_weapons",
+        "is_UN_member",
+        "is_democracy",
+        "is_republic"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_nuclear_weapons",
+        "has_space_program",
+        "is_UN_member",
+        "is_democracy",
+        "is_republic"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_nuclear_weapons",
+        "is_UN_member"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_nuclear_weapons",
+        "is_UN_member",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_nuclear_weapons",
+        "is_BRICS_member",
+        "is_UN_member",
+        "is_republic",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_death_penalty",
+        "has_nuclear_weapons",
+        "has_space_program",
+        "is_BRICS_member",
+        "is_UN_member",
+        "is_in_asia",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_nuclear_weapons",
+        "has_official_english",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_republic",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_death_penalty",
+        "has_nuclear_weapons",
+        "has_official_english",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_federal_state",
+        "is_in_asia",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_nuclear_weapons",
+        "is_UN_member",
+        "is_democracy",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_nuclear_weapons",
+        "is_UN_member",
+        "is_democracy",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_nuclear_weapons",
+        "is_UN_member",
+        "is_republic",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_nuclear_weapons",
+        "has_space_program",
+        "is_UN_member",
+        "is_republic",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_nuclear_weapons",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_nuclear_weapons",
+        "is_G7",
+        "is_NATO_founder",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_nuclear_weapons",
+        "is_UN_member",
+        "population_over_100M",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_death_penalty",
+        "has_nuclear_weapons",
+        "is_UN_member",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_coastline",
+        "is_G7",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_federal_state"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "is_G7",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_federal_state"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_high_speed_rail",
+        "is_G7",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_high_speed_rail",
+        "has_universal_healthcare",
+        "is_G7",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_official_english",
+        "has_universal_healthcare",
+        "is_G7",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_democracy",
+        "is_monarchy"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_official_english",
+        "has_universal_healthcare",
+        "is_G7",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_democracy",
+        "is_monarchy"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_coastline",
+        "is_G7",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_republic",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "is_G7",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_republic",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_high_speed_rail",
+        "has_universal_healthcare",
+        "is_G7",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_monarchy",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_high_speed_rail",
+        "has_universal_healthcare",
+        "is_G7",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_island_nation",
+        "is_monarchy",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_coastline",
+        "is_G7",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "population_over_100M",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_space_program",
+        "is_G7",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_conscription",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_conscription",
+        "has_universal_healthcare",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_high_speed_rail",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_high_speed_rail",
+        "has_universal_healthcare",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_space_program",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_nuclear_weapons",
+        "has_space_program",
+        "is_G7",
+        "is_NATO_founder",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_republic",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_universal_healthcare",
+        "is_NATO_founder",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_universal_healthcare",
+        "is_NATO_founder",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_universal_healthcare",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_republic"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_universal_healthcare",
+        "is_EU_member",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe",
+        "is_republic"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_official_english",
+        "has_universal_healthcare",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_official_english",
+        "has_universal_healthcare",
+        "is_G7",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_democracy",
+        "is_monarchy"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_coastline",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_federal_state"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "is_G7",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_federal_state"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_coastline",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "is_G7",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_nuclear_weapons",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_nuclear_weapons",
+        "is_G7",
+        "is_NATO_founder",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_coastline",
+        "is_G7",
+        "is_NATO_founder",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "is_G7",
+        "is_NATO_founder",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_universal_healthcare",
+        "is_G7",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_monarchy"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_official_english",
+        "has_universal_healthcare",
+        "is_G7",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_democracy",
+        "is_monarchy"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_coastline",
+        "is_G7",
+        "is_NATO_founder",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_federal_state",
+        "is_republic",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_death_penalty",
+        "has_nuclear_weapons",
+        "has_space_program",
+        "is_G7",
+        "is_NATO_founder",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_federal_state",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "is_OPEC_member",
+        "is_UN_member",
+        "is_island_nation"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_conscription",
+        "has_death_penalty",
+        "has_high_speed_rail",
+        "has_nuclear_weapons",
+        "has_official_english",
+        "has_space_program",
+        "has_tropical_climate",
+        "has_universal_healthcare",
+        "is_BRICS_member",
+        "is_EU_member",
+        "is_G7",
+        "is_NATO_founder",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_OPEC_member",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_democracy",
+        "is_federal_state",
+        "is_in_asia",
+        "is_in_europe",
+        "is_island_nation",
+        "is_monarchy",
+        "is_republic",
+        "landlocked",
+        "population_over_100M",
+        "population_over_50M",
+        "uses_euro"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_conscription",
+        "is_UN_member",
+        "is_island_nation"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_conscription",
+        "has_death_penalty",
+        "has_high_speed_rail",
+        "has_nuclear_weapons",
+        "has_official_english",
+        "has_space_program",
+        "has_tropical_climate",
+        "has_universal_healthcare",
+        "is_BRICS_member",
+        "is_EU_member",
+        "is_G7",
+        "is_NATO_founder",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_OPEC_member",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_democracy",
+        "is_federal_state",
+        "is_in_asia",
+        "is_in_europe",
+        "is_island_nation",
+        "is_monarchy",
+        "is_republic",
+        "landlocked",
+        "population_over_100M",
+        "population_over_50M",
+        "uses_euro"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "is_UN_member",
+        "is_federal_state",
+        "is_island_nation"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_conscription",
+        "has_death_penalty",
+        "has_high_speed_rail",
+        "has_nuclear_weapons",
+        "has_official_english",
+        "has_space_program",
+        "has_tropical_climate",
+        "has_universal_healthcare",
+        "is_BRICS_member",
+        "is_EU_member",
+        "is_G7",
+        "is_NATO_founder",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_OPEC_member",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_democracy",
+        "is_federal_state",
+        "is_in_asia",
+        "is_in_europe",
+        "is_island_nation",
+        "is_monarchy",
+        "is_republic",
+        "landlocked",
+        "population_over_100M",
+        "population_over_50M",
+        "uses_euro"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_tropical_climate",
+        "is_UN_member",
+        "is_island_nation"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_tropical_climate",
+        "is_UN_member",
+        "is_island_nation",
+        "is_republic"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_death_penalty",
+        "is_UN_member",
+        "is_island_nation"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_death_penalty",
+        "has_official_english",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_asia",
+        "is_island_nation",
+        "is_republic"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_space_program",
+        "is_UN_member",
+        "is_island_nation"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_high_speed_rail",
+        "has_space_program",
+        "has_universal_healthcare",
+        "is_G7",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_asia",
+        "is_island_nation",
+        "is_monarchy",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_island_nation"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_universal_healthcare",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_island_nation"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_official_english",
+        "is_UN_member",
+        "is_island_nation"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_official_english",
+        "is_UN_member",
+        "is_democracy",
+        "is_island_nation"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "is_UN_member",
+        "is_island_nation",
+        "is_monarchy"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_universal_healthcare",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_island_nation",
+        "is_monarchy"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_high_speed_rail",
+        "has_universal_healthcare",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_island_nation"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_high_speed_rail",
+        "has_universal_healthcare",
+        "is_G7",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_island_nation",
+        "is_monarchy",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_universal_healthcare",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_island_nation",
+        "is_republic"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_official_english",
+        "has_universal_healthcare",
+        "is_EU_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe",
+        "is_island_nation",
+        "is_republic",
+        "uses_euro"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_official_english",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_democracy",
+        "is_island_nation",
+        "is_republic"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_death_penalty",
+        "has_official_english",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_democracy",
+        "is_in_asia",
+        "is_island_nation",
+        "is_republic"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_coastline",
+        "is_UN_member",
+        "is_island_nation"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "is_UN_member",
+        "is_democracy",
+        "is_island_nation",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "is_UN_member",
+        "is_island_nation",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "is_UN_member",
+        "is_democracy",
+        "is_island_nation",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "is_UN_member",
+        "is_democracy",
+        "is_island_nation",
+        "is_republic",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_tropical_climate",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_asia",
+        "is_island_nation",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_official_english",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_democracy",
+        "is_island_nation",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_high_speed_rail",
+        "has_nuclear_weapons",
+        "has_official_english",
+        "has_universal_healthcare",
+        "is_G7",
+        "is_NATO_founder",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_democracy",
+        "is_in_europe",
+        "is_island_nation",
+        "is_monarchy",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "is_UN_member",
+        "is_democracy",
+        "is_island_nation",
+        "population_over_100M",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_asia",
+        "is_island_nation",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_nuclear_weapons",
+        "is_UN_member",
+        "is_island_nation"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_high_speed_rail",
+        "has_nuclear_weapons",
+        "has_official_english",
+        "has_universal_healthcare",
+        "is_G7",
+        "is_NATO_founder",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_democracy",
+        "is_in_europe",
+        "is_island_nation",
+        "is_monarchy",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_universal_healthcare",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_island_nation"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_high_speed_rail",
+        "has_nuclear_weapons",
+        "has_official_english",
+        "has_universal_healthcare",
+        "is_G7",
+        "is_NATO_founder",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_democracy",
+        "is_in_europe",
+        "is_island_nation",
+        "is_monarchy",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "is_UN_member",
+        "is_in_asia"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "is_UN_member",
+        "is_in_asia"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "is_OPEC_member",
+        "is_UN_member",
+        "is_in_asia"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_death_penalty",
+        "is_OPEC_member",
+        "is_UN_member",
+        "is_in_asia"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "is_UN_member",
+        "is_federal_state",
+        "is_in_asia"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_death_penalty",
+        "has_nuclear_weapons",
+        "is_UN_member",
+        "is_federal_state",
+        "is_in_asia",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_tropical_climate",
+        "is_UN_member",
+        "is_in_asia"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_tropical_climate",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_asia",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_conscription",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_in_asia"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_conscription",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_in_asia",
+        "is_republic"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_space_program",
+        "is_UN_member",
+        "is_in_asia",
+        "is_republic"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_nuclear_weapons",
+        "has_space_program",
+        "is_UN_member",
+        "is_in_asia",
+        "is_republic"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_in_asia",
+        "is_republic"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_conscription",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_in_asia",
+        "is_republic"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_official_english",
+        "is_UN_member",
+        "is_in_asia"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_death_penalty",
+        "has_official_english",
+        "is_UN_member",
+        "is_in_asia",
+        "is_republic"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_conscription",
+        "is_UN_member",
+        "is_in_asia",
+        "is_monarchy"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_conscription",
+        "has_tropical_climate",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_asia",
+        "is_monarchy",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_high_speed_rail",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_asia"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_high_speed_rail",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_asia",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_space_program",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_asia"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_space_program",
+        "has_universal_healthcare",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_asia"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_universal_healthcare",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_asia"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_space_program",
+        "has_universal_healthcare",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_asia"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_conscription",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_asia",
+        "is_republic"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_conscription",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_asia",
+        "is_republic"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_death_penalty",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_asia",
+        "is_republic"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_death_penalty",
+        "has_official_english",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_asia",
+        "is_republic"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_asia",
+        "is_monarchy"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_asia",
+        "is_monarchy",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_coastline",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_in_asia"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_in_asia",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_coastline",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_asia"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_asia",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "is_BRICS_member",
+        "is_UN_member",
+        "is_in_asia",
+        "is_republic",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_death_penalty",
+        "has_nuclear_weapons",
+        "has_space_program",
+        "is_BRICS_member",
+        "is_UN_member",
+        "is_in_asia",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_death_penalty",
+        "is_OPEC_member",
+        "is_UN_member",
+        "is_in_asia",
+        "is_republic",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_conscription",
+        "has_death_penalty",
+        "is_OPEC_member",
+        "is_UN_member",
+        "is_in_asia",
+        "is_republic",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_tropical_climate",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_asia",
+        "is_republic",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_tropical_climate",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_asia",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_space_program",
+        "is_UN_member",
+        "is_in_asia",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_space_program",
+        "is_UN_member",
+        "is_in_asia",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_coastline",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_asia",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_high_speed_rail",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_asia",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_conscription",
+        "has_death_penalty",
+        "is_UN_member",
+        "is_in_asia",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_conscription",
+        "has_death_penalty",
+        "has_nuclear_weapons",
+        "has_space_program",
+        "is_BRICS_member",
+        "is_UN_member",
+        "is_in_asia",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_asia",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_tropical_climate",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_asia",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_death_penalty",
+        "is_UN_member",
+        "is_in_asia",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_death_penalty",
+        "has_nuclear_weapons",
+        "has_space_program",
+        "is_BRICS_member",
+        "is_UN_member",
+        "is_in_asia",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_nuclear_weapons",
+        "is_UN_member",
+        "is_in_asia"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_nuclear_weapons",
+        "is_UN_member",
+        "is_in_asia",
+        "is_republic"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_nuclear_weapons",
+        "is_UN_member",
+        "is_in_asia",
+        "is_republic",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_death_penalty",
+        "has_nuclear_weapons",
+        "is_UN_member",
+        "is_in_asia",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_in_asia"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_conscription",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_in_asia",
+        "is_republic",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "is_UN_member",
+        "is_in_asia",
+        "is_island_nation"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_asia",
+        "is_island_nation"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_asia",
+        "is_island_nation",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_asia",
+        "is_island_nation",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_tropical_climate",
+        "is_UN_member",
+        "is_in_europe"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_conscription",
+        "has_death_penalty",
+        "has_high_speed_rail",
+        "has_nuclear_weapons",
+        "has_official_english",
+        "has_space_program",
+        "has_tropical_climate",
+        "has_universal_healthcare",
+        "is_BRICS_member",
+        "is_EU_member",
+        "is_G7",
+        "is_NATO_founder",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_OPEC_member",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_democracy",
+        "is_federal_state",
+        "is_in_asia",
+        "is_in_europe",
+        "is_island_nation",
+        "is_monarchy",
+        "is_republic",
+        "landlocked",
+        "population_over_100M",
+        "population_over_50M",
+        "uses_euro"
+      ]
+    },
+    {
+      "premise": [
+        "is_OECD_member",
+        "is_UN_member",
+        "is_in_europe"
+      ],
+      "conclusion": [
+        "has_universal_healthcare",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe"
+      ]
+    },
+    {
+      "premise": [
+        "is_UN_member",
+        "is_federal_state",
+        "is_in_europe",
+        "is_republic"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "is_UN_member",
+        "is_federal_state",
+        "is_in_europe",
+        "is_republic"
+      ]
+    },
+    {
+      "premise": [
+        "is_UN_member",
+        "is_in_europe",
+        "is_republic",
+        "landlocked"
+      ],
+      "conclusion": [
+        "has_universal_healthcare",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe",
+        "is_republic",
+        "landlocked"
+      ]
+    },
+    {
+      "premise": [
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe"
+      ],
+      "conclusion": [
+        "has_universal_healthcare",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe"
+      ]
+    },
+    {
+      "premise": [
+        "has_conscription",
+        "has_universal_healthcare",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe",
+        "is_republic"
+      ],
+      "conclusion": [
+        "has_conscription",
+        "has_universal_healthcare",
+        "is_EU_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe",
+        "is_republic",
+        "uses_euro"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "is_UN_member",
+        "is_federal_state",
+        "is_in_europe"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "is_UN_member",
+        "is_federal_state",
+        "is_in_europe",
+        "is_republic"
+      ]
+    },
+    {
+      "premise": [
+        "is_UN_member",
+        "is_in_europe",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "is_UN_member",
+        "is_in_europe",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_conscription",
+        "has_universal_healthcare",
+        "is_EU_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe"
+      ],
+      "conclusion": [
+        "has_conscription",
+        "has_universal_healthcare",
+        "is_EU_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe",
+        "is_republic",
+        "uses_euro"
+      ]
+    },
+    {
+      "premise": [
+        "has_universal_healthcare",
+        "is_EU_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_federal_state",
+        "is_in_europe"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_high_speed_rail",
+        "has_universal_healthcare",
+        "is_EU_member",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_federal_state",
+        "is_in_europe",
+        "uses_euro"
+      ]
+    },
+    {
+      "premise": [
+        "has_universal_healthcare",
+        "is_EU_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe",
+        "is_republic",
+        "landlocked"
+      ],
+      "conclusion": [
+        "has_conscription",
+        "has_universal_healthcare",
+        "is_EU_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe",
+        "is_republic",
+        "landlocked",
+        "uses_euro"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_universal_healthcare",
+        "is_EU_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_high_speed_rail",
+        "has_universal_healthcare",
+        "is_EU_member",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe",
+        "uses_euro"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "is_OPEC_member",
+        "is_UN_member",
+        "is_in_europe"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_conscription",
+        "has_death_penalty",
+        "has_high_speed_rail",
+        "has_nuclear_weapons",
+        "has_official_english",
+        "has_space_program",
+        "has_tropical_climate",
+        "has_universal_healthcare",
+        "is_BRICS_member",
+        "is_EU_member",
+        "is_G7",
+        "is_NATO_founder",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_OPEC_member",
+        "is_UN_member",
+        "is_commonwealth",
+        "is_democracy",
+        "is_federal_state",
+        "is_in_asia",
+        "is_in_europe",
+        "is_island_nation",
+        "is_monarchy",
+        "is_republic",
+        "landlocked",
+        "population_over_100M",
+        "population_over_50M",
+        "uses_euro"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_death_penalty",
+        "is_UN_member",
+        "is_in_europe"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_conscription",
+        "has_death_penalty",
+        "has_nuclear_weapons",
+        "has_space_program",
+        "is_BRICS_member",
+        "is_UN_member",
+        "is_federal_state",
+        "is_in_asia",
+        "is_in_europe",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_space_program",
+        "is_UN_member",
+        "is_in_europe"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_nuclear_weapons",
+        "has_space_program",
+        "is_UN_member",
+        "is_in_europe",
+        "is_republic",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_official_english",
+        "is_UN_member",
+        "is_in_europe"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_official_english",
+        "has_universal_healthcare",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe",
+        "is_island_nation"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "is_UN_member",
+        "is_in_europe",
+        "is_monarchy"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_universal_healthcare",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe",
+        "is_monarchy"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_conscription",
+        "has_universal_healthcare",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_conscription",
+        "has_universal_healthcare",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_universal_healthcare",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_federal_state",
+        "is_in_europe"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_high_speed_rail",
+        "has_universal_healthcare",
+        "is_EU_member",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_federal_state",
+        "is_in_europe",
+        "uses_euro"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_high_speed_rail",
+        "has_universal_healthcare",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_high_speed_rail",
+        "has_universal_healthcare",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_universal_healthcare",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe",
+        "is_republic"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_universal_healthcare",
+        "is_EU_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe",
+        "is_republic"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_universal_healthcare",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_high_speed_rail",
+        "has_universal_healthcare",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_coastline",
+        "is_UN_member",
+        "is_in_europe",
+        "population_over_100M",
+        "population_over_50M"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_conscription",
+        "has_death_penalty",
+        "has_nuclear_weapons",
+        "has_space_program",
+        "is_BRICS_member",
+        "is_UN_member",
+        "is_federal_state",
+        "is_in_asia",
+        "is_in_europe",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_nuclear_weapons",
+        "is_UN_member",
+        "is_in_europe"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_nuclear_weapons",
+        "is_UN_member",
+        "is_in_europe",
+        "population_over_50M"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_conscription",
+        "has_universal_healthcare",
+        "is_NATO_founder",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_conscription",
+        "has_universal_healthcare",
+        "is_NATO_founder",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe",
+        "is_monarchy"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_high_speed_rail",
+        "has_universal_healthcare",
+        "is_EU_member",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_high_speed_rail",
+        "has_universal_healthcare",
+        "is_EU_member",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe",
+        "uses_euro"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_high_speed_rail",
+        "has_universal_healthcare",
+        "is_EU_member",
+        "is_NATO_founder",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_federal_state",
+        "is_in_europe",
+        "uses_euro"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_high_speed_rail",
+        "has_universal_healthcare",
+        "is_EU_member",
+        "is_NATO_founder",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_federal_state",
+        "is_in_europe",
+        "is_monarchy",
+        "uses_euro"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_universal_healthcare",
+        "is_EU_member",
+        "is_NATO_founder",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe",
+        "is_republic"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_universal_healthcare",
+        "is_EU_member",
+        "is_NATO_founder",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe",
+        "is_republic",
+        "uses_euro"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_universal_healthcare",
+        "is_EU_member",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe",
+        "is_monarchy",
+        "uses_euro"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_high_speed_rail",
+        "has_universal_healthcare",
+        "is_EU_member",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe",
+        "is_monarchy",
+        "uses_euro"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_high_speed_rail",
+        "has_universal_healthcare",
+        "is_EU_member",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_federal_state",
+        "is_in_europe",
+        "is_monarchy",
+        "uses_euro"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_high_speed_rail",
+        "has_universal_healthcare",
+        "is_EU_member",
+        "is_NATO_founder",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_federal_state",
+        "is_in_europe",
+        "is_monarchy",
+        "uses_euro"
+      ]
+    },
+    {
+      "premise": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_high_speed_rail",
+        "has_universal_healthcare",
+        "is_EU_member",
+        "is_G7",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe",
+        "population_over_50M",
+        "uses_euro"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_high_speed_rail",
+        "has_universal_healthcare",
+        "is_EU_member",
+        "is_G7",
+        "is_NATO_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe",
+        "is_republic",
+        "population_over_50M",
+        "uses_euro"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "is_UN_member",
+        "is_in_europe",
+        "is_island_nation"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_official_english",
+        "has_universal_healthcare",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe",
+        "is_island_nation"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "has_official_english",
+        "has_universal_healthcare",
+        "is_EU_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe",
+        "is_island_nation"
+      ],
+      "conclusion": [
+        "has_coastline",
+        "has_official_english",
+        "has_universal_healthcare",
+        "is_EU_member",
+        "is_OECD_member",
+        "is_UN_member",
+        "is_democracy",
+        "is_in_europe",
+        "is_island_nation",
+        "is_republic",
+        "uses_euro"
+      ]
+    },
+    {
+      "premise": [
+        "has_coastline",
+        "is_UN_member",
+        "is_in_asia",
+        "is_in_europe"
+      ],
+      "conclusion": [
+        "gdp_top_20",
+        "has_coastline",
+        "has_conscription",
+        "has_death_penalty",
+        "has_nuclear_weapons",
+        "has_space_program",
+        "is_BRICS_member",
+        "is_UN_member",
+        "is_federal_state",
+        "is_in_asia",
+        "is_in_europe",
+        "is_republic",
+        "population_over_100M",
+        "population_over_50M"
+      ]
+    }
+  ],
+  "num_implications": 244
+}

@@ -1,11 +1,11 @@
 # Implementation Plan v2
 
 > Updated: 2026-03-22 | Experiment-driven
-> Current: Phase 1 (not started)
+> Current: Phase 4 (experiments ready to run)
 
 ---
 
-## Phase 1: FCA Engine + Tests ⬜
+## Phase 1: FCA Engine + Tests ✅
 **Goal**: 수학적으로 정확한 FCA 엔진
 **시간**: 2-3일 | **의존성**: 없음
 
@@ -36,7 +36,7 @@ Expected basis: {red} → {red, has_seed}
 
 ---
 
-## Phase 2: Oracle + Domain + Runner ⬜
+## Phase 2: Oracle + Domain + Runner ✅
 **Goal**: Ollama 연결, 실제 SLM 탐색 실행
 **시간**: 2일 | **의존성**: Phase 1
 
@@ -52,7 +52,7 @@ Expected basis: {red} → {red, has_seed}
 
 ---
 
-## Phase 3: Gold Standards + Baselines ⬜
+## Phase 3: Gold Standards + Baselines ✅
 **Goal**: 비교 실험 인프라 구축
 **시간**: 3일 | **의존성**: Phase 2
 
@@ -125,8 +125,8 @@ Expected basis: {red} → {red, has_seed}
 
 | Phase | Status | Started | Completed |
 |-------|--------|---------|-----------|
-| Phase 1: FCA Engine | ⬜ | | |
-| Phase 2: Oracle+Runner | ⬜ | | |
-| Phase 3: Gold+Baselines | ⬜ | | |
+| Phase 1: FCA Engine | ✅ | 2026-03-22 | 2026-03-22 |
+| Phase 2: Oracle+Runner | ✅ | 2026-03-22 | 2026-03-22 |
+| Phase 3: Gold+Baselines | ✅ | 2026-03-22 | 2026-03-22 |
 | Phase 4: Experiments | ⬜ | | |
 | Phase 5: Paper | ⬜ | | |
