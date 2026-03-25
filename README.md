@@ -111,7 +111,7 @@ pytest tests/test_fca_engine.py -v
 @article{autoontology2026,
   title={Beyond Single-Answer Hallucination: Detecting and Learning from
          Cross-Answer Contradictions in Language Models via Formal Concept Analysis},
-  author={Anonymous},
+  author={Yujin Yang and Heejung Lee},
   journal={arXiv preprint arXiv:2026.xxxxx},
   year={2026}
 }
