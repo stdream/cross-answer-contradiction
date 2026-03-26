@@ -1,7 +1,7 @@
 """
-Baseline: Self-Consistency — k-shot majority voting
-===================================================
-동일 질문을 k번 반복, majority vote로 결정.
+Baseline: Self-Consistency -- k-shot majority voting
+====================================================
+Repeat the same question k times, decide by majority vote.
 """
 from __future__ import annotations
 
@@ -24,7 +24,7 @@ def run(
     gold_path: str,
     output_dir: str = "results",
     seed: int = 42,
-    temperature: float = 0.7,  # SC는 다양성 위해 높은 temperature
+    temperature: float = 0.7,  # SC uses higher temperature for diversity
     k: int = 5,
 ) -> dict:
     gold = load_gold(gold_path)

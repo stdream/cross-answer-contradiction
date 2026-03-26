@@ -1,8 +1,8 @@
 """
 FCA Attribute Exploration Engine — Algorithm 19 (Ganter & Obiedkov 2016 Ch.4)
 =============================================================================
-수학적 알고리즘. 구현+테스트 통과 후 절대 수정하지 않는다.
-모든 실험 비교의 기반.
+Mathematical algorithm. Do not modify after implementation + tests pass.
+Foundation for all experimental comparisons.
 """
 from __future__ import annotations
 
@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 
 @dataclass(frozen=True)
 class Implication:
-    """FCA 함의 A → B (premise ⊆ conclusion)."""
+    """FCA implication A -> B (premise ⊆ conclusion)."""
     premise: frozenset[str]
     conclusion: frozenset[str]
 
@@ -33,7 +33,7 @@ class Implication:
         return self.conclusion - self.premise
 
     def holds_for(self, attrs: set[str] | frozenset[str]) -> bool:
-        """이 함의가 주어진 속성 집합에 대해 성립하는지 확인."""
+        """Check whether this implication holds for the given attribute set."""
         return not (self.premise <= attrs) or (self.conclusion <= attrs)
 
     def __repr__(self) -> str:
@@ -44,7 +44,7 @@ class Implication:
 
 @dataclass
 class ConsistencyViolation:
-    """모순 감지: 객체가 확인된 함의를 위반."""
+    """Contradiction detection: object violates a confirmed implication."""
     object_name: str
     object_attrs: frozenset[str]
     violated_implication: Implication
@@ -53,7 +53,7 @@ class ConsistencyViolation:
 
 @dataclass
 class ExplorationResult:
-    """속성탐색 결과."""
+    """Attribute exploration result."""
     implications: list[Implication]
     context: FormalContext
     exploration_log: list[dict]
@@ -68,7 +68,7 @@ class ExplorationResult:
 # ── Formal Context ───────────────────────────────────────────────────────────
 
 class FormalContext:
-    """형식 문맥 (G, M, I) — 객체 × 속성 교차표."""
+    """Formal context (G, M, I) -- object x attribute cross-table."""
 
     def __init__(
         self,
@@ -85,7 +85,7 @@ class FormalContext:
         self.objects[name] = set(attrs)
 
     def extent(self, attrs: set[str] | frozenset[str]) -> frozenset[str]:
-        """A' — attrs를 모두 가진 객체 집합."""
+        """A' -- set of objects that have all attrs."""
         if not attrs:
             return frozenset(self.objects.keys())
         return frozenset(
@@ -95,7 +95,7 @@ class FormalContext:
         )
 
     def intent(self, objs: set[str] | frozenset[str]) -> frozenset[str]:
-        """B' — 객체들이 공유하는 속성 집합."""
+        """B' -- set of attributes shared by the objects."""
         if not objs:
             return frozenset(self.attributes)
         result: set[str] | None = None
@@ -108,7 +108,7 @@ class FormalContext:
         return frozenset(result) if result is not None else frozenset(self.attributes)
 
     def double_prime(self, attrs: set[str] | frozenset[str]) -> frozenset[str]:
-        """A'' = (A')' — 문맥 내 속성 폐포."""
+        """A'' = (A')' -- attribute closure within the context."""
         return self.intent(self.extent(attrs))
 
     def __repr__(self) -> str:
@@ -121,7 +121,7 @@ def closure_under_implications(
     attrs: set[str] | frozenset[str],
     implications: list[Implication],
 ) -> frozenset[str]:
-    """L(A) — 함의 집합 L 하에서 A의 폐포. 고정점까지 반복."""
+    """L(A) -- closure of A under implication set L. Iterate until fixpoint."""
     closed = set(attrs)
     changed = True
     while changed:
@@ -138,7 +138,7 @@ def next_closure(
     attributes: list[str],
     implications: list[Implication],
 ) -> frozenset[str] | None:
-    """사전식(lecticographic) 순서에서 current 다음의 L-폐포 집합.
+    """Next L-closed set after current in lecticographic order.
 
     Returns None when current is the last closed set.
     """
@@ -154,7 +154,7 @@ def next_closure(
         prefix = frozenset(a for a in current if attr_idx[a] < i)
         closed = closure_under_implications(prefix | {m_i}, implications)
 
-        # i 미만에서 새 원소가 추가되지 않았는지 확인
+        # Check that no new elements below index i were added
         if all(
             attributes[j] not in closed or attributes[j] in current
             for j in range(i)
@@ -168,7 +168,7 @@ def next_closure(
 
 @runtime_checkable
 class Oracle(Protocol):
-    """탐색 oracle 인터페이스."""
+    """Exploration oracle interface."""
 
     def confirm_implication(
         self,
@@ -176,7 +176,7 @@ class Oracle(Protocol):
         conclusion: frozenset[str],
         context: FormalContext,
     ) -> tuple[bool, str | None, set[str] | None]:
-        """함의 확인. Returns (accepted, counterexample_name, counterexample_attrs)."""
+        """Confirm implication. Returns (accepted, counterexample_name, counterexample_attrs)."""
         ...
 
 
@@ -188,13 +188,13 @@ def full_exploration(
     initial_objects: dict[str, set[str]] | None = None,
     max_iterations: int = 10_000,
 ) -> ExplorationResult:
-    """Algorithm 19 (Ganter & Obiedkov 2016 Ch.4) 실행.
+    """Run Algorithm 19 (Ganter & Obiedkov 2016 Ch.4).
 
     Args:
-        attributes: 속성 리스트 M (순서 고정)
-        oracle: 함의 확인 oracle
-        initial_objects: 초기 객체들 (선택)
-        max_iterations: 안전 한계
+        attributes: attribute list M (fixed order)
+        oracle: implication confirmation oracle
+        initial_objects: initial objects (optional)
+        max_iterations: safety limit
     """
     context = FormalContext(attributes, initial_objects)
     implications: list[Implication] = []
@@ -208,7 +208,7 @@ def full_exploration(
     while A is not None and iteration < max_iterations:
         iteration += 1
 
-        # A가 intent인지, 아니면 함의를 제안
+        # Check whether A is an intent, otherwise propose an implication
         while True:
             A_pp = context.double_prime(A)
 
@@ -216,7 +216,7 @@ def full_exploration(
                 log.append({"type": "intent", "set": sorted(A)})
                 break
 
-            # 함의 후보: A → A''
+            # Implication candidate: A -> A''
             num_questions += 1
             accepted, ce_name, ce_attrs = oracle.confirm_implication(
                 A, A_pp, context
@@ -262,9 +262,9 @@ def check_consistency(
     object_attrs: set[str] | frozenset[str],
     implications: list[Implication],
 ) -> list[ConsistencyViolation]:
-    """객체 속성이 확인된 함의와 일관되는지 검사.
+    """Check whether object attributes are consistent with confirmed implications.
 
-    위반 = hallucination: SLM이 premise는 있다고 했는데 conclusion은 없다고 한 경우.
+    Violation = hallucination: SLM said premise holds but conclusion does not.
     """
     attrs_fs = frozenset(object_attrs)
     return [

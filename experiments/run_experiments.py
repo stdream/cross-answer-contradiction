@@ -1,6 +1,6 @@
 """
-Experiment Runner — Exp 1~5 자동 실행
-=====================================
+Experiment Runner -- Automated execution of Exp 1-5
+====================================================
 Usage:
     python experiments/run_experiments.py --exp 1
     python experiments/run_experiments.py --exp all
@@ -47,7 +47,7 @@ def run_fca(
     structured_query: bool = True,
     method_label: str = "fca",
 ) -> dict:
-    """FCA 탐색 실행 + gold 비교."""
+    """Run FCA exploration + compare against gold."""
     all_domains = {**DOMAINS, **SCALING_DOMAINS}
     domain = all_domains[domain_name]
     gold = load_gold(str(gold_path))
@@ -115,7 +115,7 @@ def run_baseline(
     output_dir: Path,
     **kwargs,
 ) -> dict:
-    """Baseline 실행 + CCR 추가."""
+    """Run baseline + add CCR."""
     all_domains = {**DOMAINS, **SCALING_DOMAINS}
     domain = all_domains[domain_name]
     gold = load_gold(str(gold_path))
@@ -379,7 +379,7 @@ def _save_summary(out_dir: Path, filename: str, table: str, results: list) -> No
 
 
 def _strip_predictions(r: dict) -> dict:
-    """결과에서 큰 predictions 배열 제거 (summary용)."""
+    """Remove large predictions array from result (for summary)."""
     out = {k: v for k, v in r.items() if k not in ("predictions", "context_objects")}
     if "predictions" in r:
         out["num_predictions"] = len(r["predictions"])

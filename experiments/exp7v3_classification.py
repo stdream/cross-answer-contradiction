@@ -43,7 +43,7 @@ def parse_yes_no(response: str) -> bool | None:
 
 
 def load_seen_pairs() -> set[tuple[str, str]]:
-    """DPO training data에서 (object, attribute) 쌍 추출."""
+    """Extract (object, attribute) pairs from DPO training data."""
     seen = set()
     if not DPO_PAIRS_PATH.exists():
         return seen
@@ -63,7 +63,7 @@ def run_classification(
     gold: dict,
     seen_pairs: set[tuple[str, str]],
 ) -> dict:
-    """모든 (object, attribute) 쌍에 대해 classification 실행."""
+    """Run classification for all (object, attribute) pairs."""
     attributes = gold["attributes"]
     objects = gold["objects"]
     total = len(objects) * len(attributes)

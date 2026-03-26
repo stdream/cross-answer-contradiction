@@ -1,10 +1,10 @@
 """
-Baseline: Structured Survey — 전수조사 후 FCA 엔진으로 기저 계산
-============================================================
-FCA 탐색 알고리즘 없이, 모든 객체×속성을 SLM에 물어보고
-cross-table을 구성한 뒤 fca_engine으로 canonical basis를 계산.
+Baseline: Structured Survey -- exhaustive survey then compute basis via FCA engine
+==================================================================================
+Without the FCA exploration algorithm, query the SLM for all object x attribute pairs,
+build the cross-table, then compute the canonical basis using fca_engine.
 
-"FCA 엔진은 쓰지만, 탐색 없이 전수조사" baseline.
+"Uses the FCA engine, but with exhaustive survey instead of exploration" baseline.
 """
 from __future__ import annotations
 
@@ -24,7 +24,7 @@ logger = logging.getLogger(__name__)
 # ── Gold oracle for computing basis from a built context ─────────────────────
 
 class ContextOracle:
-    """이미 완성된 context에서 canonical basis를 계산하기 위한 oracle."""
+    """Oracle for computing canonical basis from a fully constructed context."""
 
     def __init__(self, context: FormalContext):
         self.context = context
@@ -35,7 +35,7 @@ class ContextOracle:
         conclusion: frozenset[str],
         context: FormalContext,
     ) -> tuple[bool, str | None, set[str] | None]:
-        # 현재 context의 모든 객체에서 반례 찾기
+        # Find counterexample among all objects in the current context
         for name in sorted(self.context.objects):
             if name not in context.objects:
                 attrs = self.context.objects[name]
@@ -52,12 +52,12 @@ def run(
     output_dir: str = "results",
     temperature: float = 0.1,
 ) -> dict:
-    """전수조사 baseline 실행."""
+    """Run exhaustive survey baseline."""
     gold = load_gold(gold_path)
     attributes = gold["attributes"]
     gold_objects = list(gold["objects"].keys())
 
-    # Phase 1: 모든 객체×속성에 대해 SLM에 질문 (전수조사)
+    # Phase 1: query SLM for all object x attribute pairs (exhaustive survey)
     num_queries = 0
     t0 = time.time()
     slm_context: dict[str, set[str]] = {}
@@ -90,7 +90,7 @@ def run(
         len(gold_objects), len(attributes), num_queries, survey_time,
     )
 
-    # Phase 2: SLM cross-table로 FCA canonical basis 계산
+    # Phase 2: compute FCA canonical basis from SLM cross-table
     t1 = time.time()
     fc = FormalContext(attributes, slm_context)
     oracle = ContextOracle(fc)

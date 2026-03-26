@@ -1,10 +1,10 @@
 """
 SLM Oracle — Ollama LLM-as-Expert
 ==================================
-FCA 속성탐색의 oracle로서 SLM을 사용.
-- Ollama API로 yes/no 질문
-- JSON 구조화 프롬프트
-- self-correction loop (모순 감지 시 재질의)
+Uses SLM as the oracle for FCA attribute exploration.
+- Yes/no queries via Ollama API
+- JSON structured prompts
+- Self-correction loop (re-query on contradiction detection)
 """
 from __future__ import annotations
 
@@ -26,7 +26,7 @@ class OracleConfig:
     temperature: float = 0.1
     max_retries: int = 3
     self_correction: bool = True
-    consistency_check: bool = True      # Ablation: 모순 감지 on/off
+    consistency_check: bool = True      # Ablation: contradiction detection on/off
     structured_query: bool = True       # Ablation: suggest-then-verify on/off
     suggest_count: int = 5
     ollama_url: str = OLLAMA_URL
@@ -40,7 +40,7 @@ class QueryLog:
 
 
 class OllamaOracle:
-    """Ollama 기반 SLM oracle — FCA 속성탐색용."""
+    """Ollama-based SLM oracle for FCA attribute exploration."""
 
     def __init__(self, domain: dict, config: OracleConfig | None = None):
         self.domain = domain
@@ -54,7 +54,7 @@ class OllamaOracle:
     # ── Ollama API ───────────────────────────────────────────────────────
 
     def _call_ollama(self, prompt: str) -> str:
-        """Ollama API 호출."""
+        """Call the Ollama API."""
         resp = requests.post(
             f"{self.config.ollama_url}/api/generate",
             json={
@@ -76,7 +76,7 @@ class OllamaOracle:
     # ── Parsing helpers ──────────────────────────────────────────────────
 
     def _parse_yes_no(self, response: str) -> bool | None:
-        """응답에서 yes/no 추출."""
+        """Extract yes/no from response."""
         low = response.lower().strip()
         if low.startswith("yes"):
             return True
@@ -91,12 +91,12 @@ class OllamaOracle:
 
     @staticmethod
     def _clean_name(raw: str) -> str:
-        """SLM 응답에서 객체 이름 정리."""
+        """Clean object name from SLM response."""
         cleaned = raw.strip().strip('"').strip("'").strip(".").strip()
         for prefix in ("a ", "an ", "the "):
             if cleaned.lower().startswith(prefix):
                 cleaned = cleaned[len(prefix):]
-        # 번호 prefix 제거 (e.g., "1. apple")
+        # Remove number prefix (e.g., "1. apple")
         parts = cleaned.split(".", 1)
         if len(parts) == 2 and parts[0].strip().isdigit():
             cleaned = parts[1]
@@ -108,7 +108,7 @@ class OllamaOracle:
     # ── Atomic queries ───────────────────────────────────────────────────
 
     def ask_attribute(self, obj: str, attr: str) -> bool:
-        """객체가 속성을 가지는지 질문. Classification 프롬프트 사용."""
+        """Ask whether the object has the attribute. Uses classification prompt."""
         prompt = (
             f'We are classifying {self.domain["name"]} '
             f"by their common properties.\n"
@@ -126,7 +126,7 @@ class OllamaOracle:
         return result
 
     def get_object_attributes(self, obj: str) -> set[str]:
-        """객체의 모든 속성을 질문으로 확인."""
+        """Determine all attributes of the object by querying each one."""
         return {
             attr for attr in self.domain["attributes"]
             if self.ask_attribute(obj, attr)
@@ -137,7 +137,7 @@ class OllamaOracle:
     def suggest_objects(
         self, premise: frozenset[str], n: int | None = None,
     ) -> list[str]:
-        """SLM에게 premise를 가진 well-known 객체 n개 제안 요청."""
+        """Ask the SLM to suggest n well-known objects that have the premise."""
         count = n or self.config.suggest_count
         domain_name = self.domain["name"]
         if not premise:
@@ -166,7 +166,7 @@ class OllamaOracle:
         premise: frozenset[str],
         conclusion: frozenset[str],
     ) -> str | None:
-        """직접 반례 이름 요청. 이름 반환 또는 None."""
+        """Directly request a counterexample name. Returns name or None."""
         missing = sorted(conclusion - premise)
         missing_str = ", ".join(missing)
 
@@ -203,7 +203,7 @@ class OllamaOracle:
         premise: frozenset[str],
         conclusion: frozenset[str],
     ) -> tuple[bool, set[str]]:
-        """반례 후보를 검증. Returns (is_valid, attrs)."""
+        """Validate a counterexample candidate. Returns (is_valid, attrs)."""
         attrs = self.get_object_attributes(name)
 
         if self.config.consistency_check and self._confirmed:
@@ -227,16 +227,16 @@ class OllamaOracle:
         conclusion: frozenset[str],
         context: FormalContext,
     ) -> tuple[bool, str | None, set[str] | None]:
-        """함의 확인 (FCA oracle protocol).
+        """Confirm implication (FCA oracle protocol).
 
-        전략 1 (primary): 다양한 객체 제안 → 속성별 yes/no 검증
-        전략 2 (fallback): 직접 반례 이름 요청 → 속성 검증
+        Strategy 1 (primary): suggest diverse objects -> verify attributes via yes/no
+        Strategy 2 (fallback): directly request counterexample name -> verify attributes
 
-        structured_query=False → 전략 2만 사용 (ablation).
+        structured_query=False -> use strategy 2 only (ablation).
 
         Returns: (accepted, counterexample_name, counterexample_attrs)
         """
-        # 전략 1: 객체 제안 후 속성별 yes/no 검증 (structured_query=True일 때만)
+        # Strategy 1: suggest objects then verify attributes via yes/no (only when structured_query=True)
         if self.config.structured_query:
             candidates = self.suggest_objects(premise)
             for cand in candidates:
@@ -248,7 +248,7 @@ class OllamaOracle:
                 if is_valid:
                     return (False, cand, attrs)
 
-        # 전략 2: 직접 반례 요청
+        # Strategy 2: directly request counterexample
         name = self.ask_counterexample(premise, conclusion)
         if name is not None and name not in context.objects:
             is_valid, attrs = self._validate_counterexample(
@@ -257,7 +257,7 @@ class OllamaOracle:
             if is_valid:
                 return (False, name, attrs)
 
-        # 반례 없음 → 수락
+        # No counterexample found -> accept
         self._confirmed.append(Implication(premise, conclusion))
         return (True, None, None)
 
@@ -269,7 +269,7 @@ class OllamaOracle:
         attrs: set[str],
         violations: list,
     ) -> set[str]:
-        """모순 감지 시 재질의로 교정 시도."""
+        """Attempt correction via re-query when contradiction is detected."""
         corrected = set(attrs)
         for v in violations:
             premise_str = ", ".join(sorted(v.violated_implication.premise))

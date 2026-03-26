@@ -38,7 +38,7 @@ def run_single(
     self_correction: bool = True,
     temperature: float = 0.1,
 ) -> dict:
-    """단일 FCA 탐색 실행."""
+    """Run a single FCA exploration."""
     all_domains = {**DOMAINS, **SCALING_DOMAINS}
     if domain_name not in all_domains:
         print(
@@ -71,7 +71,7 @@ def run_single(
 
     elapsed = time.time() - t0
 
-    # 콘솔 요약
+    # Console summary
     print(f"\n{'='*50}")
     print(f"Domain: {domain_name} | Model: {model}")
     print(f"Implications: {result.num_implications}")
@@ -85,7 +85,7 @@ def run_single(
     print(f"Time: {elapsed:.1f}s")
     print(f"{'='*50}\n")
 
-    # 결과 저장
+    # Save results
     out = Path(output_dir)
     out.mkdir(parents=True, exist_ok=True)
     ts = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -120,7 +120,7 @@ def run_single(
     with open(out / f"{run_id}.json", "w") as f:
         json.dump(summary, f, indent=2, ensure_ascii=False)
 
-    # JSONL 로그: exploration events + oracle queries
+    # JSONL log: exploration events + oracle queries
     with open(out / f"{run_id}.jsonl", "w") as f:
         for entry in result.exploration_log:
             f.write(json.dumps(entry, ensure_ascii=False) + "\n")

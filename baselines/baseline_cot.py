@@ -1,6 +1,6 @@
 """
-Baseline: Chain-of-Thought — "Think step by step" 추가
-=====================================================
+Baseline: Chain-of-Thought -- adds "Think step by step"
+=======================================================
 """
 from __future__ import annotations
 
@@ -37,7 +37,7 @@ def run(
             item["premise"], item["conclusion"], domain_desc, cot=True,
         )
         resp = call_ollama(prompt, model, temperature)
-        # CoT 응답에서 마지막 YES/NO 추출
+        # Extract last YES/NO from CoT response
         predicted = None
         for line in reversed(resp.split("\n")):
             predicted = parse_yes_no(line.strip())

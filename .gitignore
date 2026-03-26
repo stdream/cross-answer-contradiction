@@ -8,3 +8,5 @@ __pycache__/
 .pytest_cache/
 Modelfile.*
 synthetic_fca_*.jsonl
+docs/
+dpo/

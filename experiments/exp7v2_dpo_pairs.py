@@ -28,7 +28,7 @@ GOLD_DIR = Path(__file__).resolve().parent.parent / "gold_standards"
 
 
 def extract_dpo_pairs(oracle: OllamaOracle, source_model: str, source_domain: str, domain_attrs: str) -> list[dict]:
-    """Oracle query log에서 self-correction 이벤트를 DPO pair로 변환."""
+    """Convert self-correction events from oracle query log into DPO pairs."""
     pairs = []
     logs = oracle.query_log
 

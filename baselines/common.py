@@ -1,7 +1,7 @@
 """
-Baseline 공통 유틸리티
-====================
-Ollama API, test set 생성, 공통 결과 포맷.
+Baseline Common Utilities
+=========================
+Ollama API, test set generation, common result format.
 """
 from __future__ import annotations
 
@@ -76,7 +76,7 @@ def gold_to_implications(gold: dict) -> list[Implication]:
 # ── Test set generation ──────────────────────────────────────────────────────
 
 def generate_test_set(gold: dict, seed: int = 42) -> list[dict]:
-    """Gold canonical basis (valid=True) + 동일 수 invalid implications (valid=False)."""
+    """Gold canonical basis (valid=True) + equal number of invalid implications (valid=False)."""
     rng = random.Random(seed)
     attributes = gold["attributes"]
     context = gold_to_context(gold)

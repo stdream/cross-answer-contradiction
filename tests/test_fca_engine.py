@@ -1,4 +1,4 @@
-"""Tests for fca_engine.py — Algorithm 19 검증."""
+"""Tests for fca_engine.py -- Algorithm 19 verification."""
 import pytest
 from fca_engine import (
     Implication,
@@ -26,7 +26,7 @@ FRUIT_GOLD = {
 
 
 class MockOracle:
-    """Gold standard 기반 mock oracle — 결정적 반례 제공 (이름 정렬)."""
+    """Gold standard based mock oracle -- provides deterministic counterexamples (sorted by name)."""
 
     def __init__(self, gold: dict[str, set[str]]):
         self.gold = gold
@@ -60,11 +60,11 @@ class TestImplication:
 
     def test_holds_for_vacuously(self):
         impl = Implication(frozenset({"red"}), frozenset({"red", "has_seed"}))
-        assert impl.holds_for({"sweet"})  # premise 불충족 → 참
+        assert impl.holds_for({"sweet"})  # premise not satisfied -> true
 
     def test_holds_for_violated(self):
         impl = Implication(frozenset({"red"}), frozenset({"red", "has_seed"}))
-        assert not impl.holds_for({"red", "sweet"})  # has_seed 누락
+        assert not impl.holds_for({"red", "sweet"})  # has_seed missing
 
     def test_invalid_raises(self):
         with pytest.raises(ValueError):
@@ -117,12 +117,12 @@ class TestFormalContext:
 
     def test_double_prime_empty_full_context(self):
         ctx = FormalContext(FRUIT_ATTRS, FRUIT_GOLD)
-        # 6개 과일 중 공통 속성 없음
+        # No common attributes among the 6 fruits
         assert ctx.double_prime(set()) == frozenset()
 
     def test_double_prime_empty_empty_context(self):
         ctx = FormalContext(FRUIT_ATTRS)
-        # 객체 없으면 vacuously M
+        # No objects -> vacuously M
         assert ctx.double_prime(set()) == frozenset(FRUIT_ATTRS)
 
     def test_add_object(self):
@@ -164,7 +164,7 @@ class TestClosureUnderImplications:
 
 class TestNextClosure:
     def test_full_enumeration_no_implications(self):
-        """M = {a, b, c}, L = {} → 모든 2^3 부분집합 사전식 열거."""
+        """M = {a, b, c}, L = {} -> enumerate all 2^3 subsets in lecticographic order."""
         attrs = ["a", "b", "c"]
         seq = [frozenset()]
         current = frozenset()
@@ -188,7 +188,7 @@ class TestNextClosure:
         assert seq == expected
 
     def test_with_implications(self):
-        """L = {{a} → {a,c}} → {a}와 {a,b}는 L-폐포가 아님."""
+        """L = {{a} -> {a,c}} -> {a} and {a,b} are not L-closed."""
         attrs = ["a", "b", "c"]
         impl = Implication(frozenset({"a"}), frozenset({"a", "c"}))
 
@@ -225,7 +225,7 @@ class TestNextClosure:
 
 class TestFullExploration:
     def test_fruit_canonical_basis(self):
-        """과일 도메인 정준 기저: {red} → {has_seed} 단 하나."""
+        """Fruit domain canonical basis: only {red} -> {has_seed}."""
         oracle = MockOracle(FRUIT_GOLD)
         result = full_exploration(FRUIT_ATTRS, oracle)
 
@@ -235,7 +235,7 @@ class TestFullExploration:
         assert impl.conclusion == frozenset({"red", "has_seed"})
 
     def test_fruit_soundness(self):
-        """모든 gold 객체가 탐색된 함의를 만족."""
+        """All gold objects satisfy the explored implications."""
         oracle = MockOracle(FRUIT_GOLD)
         result = full_exploration(FRUIT_ATTRS, oracle)
 
@@ -244,7 +244,7 @@ class TestFullExploration:
                 assert impl.holds_for(attrs), f"{name} violates {impl}"
 
     def test_fruit_exploration_stats(self):
-        """탐색 통계: 4 counterexamples, 5 oracle questions."""
+        """Exploration stats: 4 counterexamples, 5 oracle questions."""
         oracle = MockOracle(FRUIT_GOLD)
         result = full_exploration(FRUIT_ATTRS, oracle)
 
@@ -252,7 +252,7 @@ class TestFullExploration:
         assert result.num_questions == 5
 
     def test_fruit_context_objects(self):
-        """반례로 수집된 객체: banana, lemon, tomato, watermelon."""
+        """Objects collected as counterexamples: banana, lemon, tomato, watermelon."""
         oracle = MockOracle(FRUIT_GOLD)
         result = full_exploration(FRUIT_ATTRS, oracle)
 
@@ -271,7 +271,7 @@ class TestFullExploration:
         assert "implication" in types
 
     def test_with_initial_objects(self):
-        """초기 객체가 있어도 동일한 정준 기저."""
+        """Same canonical basis even with initial objects."""
         oracle = MockOracle(FRUIT_GOLD)
         initial = {"apple": {"red", "sweet", "has_seed"}}
         result = full_exploration(FRUIT_ATTRS, oracle, initial_objects=initial)
@@ -281,12 +281,12 @@ class TestFullExploration:
         assert result.implications[0].conclusion == frozenset({"red", "has_seed"})
 
     def test_trivial_domain(self):
-        """모든 객체가 동일한 속성 → 함의 많음."""
+        """All objects have identical attributes -> many implications."""
         gold = {"x": {"a", "b"}, "y": {"a", "b"}}
         oracle = MockOracle(gold)
         result = full_exploration(["a", "b"], oracle)
 
-        # 모든 객체가 {a,b} → ∅ → {a,b} 함의
+        # All objects have {a,b} -> empty -> {a,b} implication
         assert any(
             impl.premise == frozenset() for impl in result.implications
         )
@@ -328,7 +328,7 @@ class TestCheckConsistency:
 
 class TestEndToEnd:
     def test_exploration_then_consistency(self):
-        """탐색 완료 후 모든 gold 객체가 함의와 일관."""
+        """After exploration, all gold objects are consistent with implications."""
         oracle = MockOracle(FRUIT_GOLD)
         result = full_exploration(FRUIT_ATTRS, oracle)
 
@@ -337,11 +337,11 @@ class TestEndToEnd:
             assert violations == [], f"{name}: {violations}"
 
     def test_hallucination_detection(self):
-        """탐색 후 hallucination (모순 답변) 감지."""
+        """Detect hallucination (contradictory answer) after exploration."""
         oracle = MockOracle(FRUIT_GOLD)
         result = full_exploration(FRUIT_ATTRS, oracle)
 
-        # "cherry는 red이지만 has_seed 아님" = hallucination
+        # "cherry is red but not has_seed" = hallucination
         violations = check_consistency(
             "cherry_hallucinated", {"red", "sweet"}, result.implications
         )
@@ -349,11 +349,11 @@ class TestEndToEnd:
         assert "has_seed" in violations[0].missing_attrs
 
     def test_consistent_new_object(self):
-        """탐색 후 일관된 새 객체는 위반 없음."""
+        """Consistent new object after exploration has no violations."""
         oracle = MockOracle(FRUIT_GOLD)
         result = full_exploration(FRUIT_ATTRS, oracle)
 
-        # "cherry: red + has_seed" = 함의와 일관
+        # "cherry: red + has_seed" = consistent with implications
         violations = check_consistency(
             "cherry", {"red", "has_seed"}, result.implications
         )

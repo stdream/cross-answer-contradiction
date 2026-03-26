@@ -2,8 +2,8 @@
 Evaluation — Metrics + Comparison Tables
 ========================================
 - knowledge_accuracy: P/R/F1 (closure-based for FCA, direct for baselines)
-- cross_answer_contradiction_rate: 논리적 모순 비율
-- format_comparison_table: markdown 테이블 출력
+- cross_answer_contradiction_rate: logical contradiction rate
+- format_comparison_table: markdown table output
 """
 from __future__ import annotations
 
@@ -18,10 +18,10 @@ def knowledge_accuracy_fca(
     discovered_impls: list[dict],
     gold_impls: list[dict],
 ) -> dict:
-    """FCA 결과 vs gold basis — closure-based P/R/F1.
+    """FCA result vs gold basis -- closure-based P/R/F1.
 
-    Precision: discovered 중 gold에서 derivable한 비율.
-    Recall: gold 중 discovered에서 derivable한 비율.
+    Precision: fraction of discovered that are derivable from gold.
+    Recall: fraction of gold that are derivable from discovered.
     """
     discovered = [
         Implication(frozenset(d["premise"]), frozenset(d["conclusion"]))
@@ -72,9 +72,9 @@ def cross_answer_contradiction_rate(
     accepted_impls: list[dict],
     gold_objects: dict[str, list[str]],
 ) -> dict:
-    """Accepted implications vs gold objects — 모순 비율.
+    """Accepted implications vs gold objects -- contradiction rate.
 
-    CCR = gold objects 중 적어도 하나의 accepted implication을 위반하는 비율.
+    CCR = fraction of gold objects that violate at least one accepted implication.
     """
     impls = [
         Implication(frozenset(i["premise"]), frozenset(i["conclusion"]))
@@ -102,12 +102,12 @@ def cross_answer_contradiction_rate(
         "ccr": round(ccr, 4),
         "violations": violations,
         "total_objects": total,
-        "details": violation_details[:10],  # 상위 10개만
+        "details": violation_details[:10],  # top 10 only
     }
 
 
 def fca_exploration_ccr(exploration_log: list[dict]) -> dict:
-    """FCA 탐색 로그에서 self-detected 모순 비율."""
+    """Self-detected contradiction rate from FCA exploration log."""
     counterexamples = [e for e in exploration_log if e["type"] == "counterexample"]
     implications = [e for e in exploration_log if e["type"] == "implication"]
     intents = [e for e in exploration_log if e["type"] == "intent"]
@@ -124,7 +124,7 @@ def fca_exploration_ccr(exploration_log: list[dict]) -> dict:
 # ── Comparison Table ─────────────────────────────────────────────────────────
 
 def format_comparison_table(results: list[dict]) -> str:
-    """결과 목록 → markdown 비교 테이블."""
+    """Result list -> markdown comparison table."""
     header = "| Method | P | R | F1 | CCR | Queries | Time(s) |"
     sep = "|--------|------|------|------|------|---------|---------|"
     rows = [header, sep]
@@ -151,7 +151,7 @@ def format_comparison_table(results: list[dict]) -> str:
 
 
 def format_model_table(results: list[dict]) -> str:
-    """모델 비교 테이블 (Exp 2)."""
+    """Model comparison table (Exp 2)."""
     header = "| Model | Method | P | R | F1 | CCR | Queries |"
     sep = "|-------|--------|------|------|------|------|---------|"
     rows = [header, sep]
@@ -172,7 +172,7 @@ def format_model_table(results: list[dict]) -> str:
 # ── Unified evaluation ───────────────────────────────────────────────────────
 
 def evaluate_fca_result(result_path: str, gold_path: str) -> dict:
-    """FCA 결과 JSON을 gold와 비교하여 metrics 계산."""
+    """Compute metrics by comparing FCA result JSON against gold."""
     with open(result_path) as f:
         result = json.load(f)
     gold = json.load(open(gold_path))
@@ -192,7 +192,7 @@ def evaluate_fca_result(result_path: str, gold_path: str) -> dict:
 
 
 def evaluate_baseline_result(result_path: str, gold_path: str) -> dict:
-    """Baseline 결과 JSON에 CCR 추가."""
+    """Add CCR to baseline result JSON."""
     with open(result_path) as f:
         result = json.load(f)
     gold = json.load(open(gold_path))

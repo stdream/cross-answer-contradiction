@@ -1,8 +1,8 @@
 """
-Baseline: Closed-World — 50개국 리스트를 명시한 closed-world 규칙 판단
-===================================================================
-리뷰어 지적 대응: open-world baseline vs closed-world FCA 비교의 공정성.
-동일한 closed-world (50개국)에서 규칙 판단을 요청.
+Baseline: Closed-World -- rule judgment with explicit list of 50 countries
+=========================================================================
+Addresses reviewer concern: fairness of open-world baseline vs closed-world FCA.
+Requests rule judgment within the same closed-world (50 countries).
 """
 from __future__ import annotations
 

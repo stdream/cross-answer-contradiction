@@ -1,8 +1,8 @@
 """
 Exp 6: Synthetic Noise Study
 =============================
-FCA exploration에 대한 oracle noise의 영향을 측정.
-SLM 없이 synthetic world + noisy oracle로 빠르게 실행.
+Measures the effect of oracle noise on FCA exploration.
+Runs quickly without SLM using synthetic world + noisy oracle.
 
 Usage:
     python experiments/exp6_synthetic.py
@@ -39,11 +39,11 @@ RESULTS_DIR = Path(__file__).resolve().parent.parent / "results" / "exp6"
 # ── Noisy Oracle ─────────────────────────────────────────────────────────────
 
 class NoisyOracle:
-    """Ground truth world에서 noise_rate만큼 오류를 주입하는 oracle.
+    """Oracle that injects errors at noise_rate into the ground truth world.
 
-    - confirm_implication: world examples에서 반례를 찾되,
-      noise_rate 확률로 반례 속성을 뒤집음.
-    - noise=0이면 perfect oracle.
+    - confirm_implication: finds counterexamples from world examples,
+      flipping counterexample attributes with noise_rate probability.
+    - noise=0 means perfect oracle.
     """
 
     def __init__(
@@ -60,7 +60,7 @@ class NoisyOracle:
         self.num_contradictions = 0
 
     def _noisy_attrs(self, attrs: set[str]) -> set[str]:
-        """noise_rate 확률로 각 속성의 yes/no를 뒤집음."""
+        """Flip each attribute's yes/no with noise_rate probability."""
         result = set()
         for a in self.attributes:
             has_it = a in attrs
@@ -76,20 +76,20 @@ class NoisyOracle:
         conclusion: frozenset[str],
         context: FormalContext,
     ) -> tuple[bool, str | None, set[str] | None]:
-        # world에서 실제 반례 찾기
+        # Find actual counterexample from world
         for i, ex in enumerate(self.world):
             if premise <= ex and not conclusion <= ex:
-                # 반례 발견 — noise 주입
+                # Counterexample found -- inject noise
                 noisy_ex = self._noisy_attrs(ex)
                 name = f"obj_{i}"
 
-                # noise 후에도 유효한 반례인지 확인
+                # Check if still a valid counterexample after noise
                 if premise <= noisy_ex and not conclusion <= noisy_ex:
                     if name not in context.objects:
                         return (False, name, noisy_ex)
 
-        # 반례 없음 (또는 noise로 무효화) → accept
-        # noise_rate > 0이면 가끔 실제로 성립하지 않는 함의도 accept됨
+        # No counterexample (or invalidated by noise) -> accept
+        # When noise_rate > 0, some implications that do not actually hold may be accepted
         return (True, None, None)
 
 
@@ -99,7 +99,7 @@ def compute_gold_basis(
     attributes: list[str],
     world_examples: list[set[str]],
 ) -> list[dict]:
-    """Noise=0 perfect oracle로 gold canonical basis 계산."""
+    """Compute gold canonical basis using noise=0 perfect oracle."""
     oracle = NoisyOracle(world_examples, attributes, noise_rate=0.0)
     result = full_exploration(attributes, oracle)
     return [
@@ -117,7 +117,7 @@ def run_single(
     noise_rate: float,
     seed: int,
 ) -> dict:
-    """단일 noisy exploration 실행 → metrics 반환."""
+    """Run a single noisy exploration -> return metrics."""
     rng = random.Random(seed)
     oracle = NoisyOracle(world_examples, attributes, noise_rate, rng)
 
@@ -151,7 +151,7 @@ def main():
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
     # 1. Generate synthetic world
-    # 여러 seed를 시도하여 gold basis가 충분히 풍부한 world 선택
+    # Try multiple seeds to select a world with a sufficiently rich gold basis
     print("Generating synthetic world...")
     best_ds, best_basis_len = None, 0
     for try_seed in [42, 43, 44, 45, 99, 123, 200, 314, 500, 777]:

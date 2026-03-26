@@ -1,7 +1,7 @@
 """
-Baseline: Vanilla — 직접 함의 질문 (구조 없음)
-===============================================
-Gold canonical basis + invalid implications을 SLM에 직접 질문.
+Baseline: Vanilla -- direct implication query (no structure)
+============================================================
+Directly query the SLM with gold canonical basis + invalid implications.
 """
 from __future__ import annotations
 
