@@ -5,19 +5,19 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2026.xxxxx-b31b1b.svg)](https://arxiv.org/abs/2026.xxxxx)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-Language models produce plausible but logically inconsistent responses across different questions about the same domain. We introduce a framework that uses **attribute exploration** from Formal Concept Analysis (FCA) as a symbolic guardrail—decomposing abstract rule judgment into concrete object-level binary questions and cross-checking every response against previously confirmed knowledge.
+Language models produce plausible but logically inconsistent responses across different questions about the same domain. We introduce a three-stage framework that **detects**, **corrects**, and **learns from** cross-answer contradictions using attribute exploration from Formal Concept Analysis (FCA)—decomposing abstract rule judgment into concrete object-level binary questions and cross-checking every response against previously confirmed knowledge.
 
 ## Key Findings
 
 1. **Direct implication questioning fails completely** — all baselines achieve F1=0 because SLMs cannot judge universal rules, even in a closed-world setting with explicitly enumerated entities.
-2. **FCA achieves F1=0.37–0.75 across 7 models and 3 families** (Qwen, Llama, Gemma). Oracle consistency matters more than model size: Qwen2.5-1.5B outperforms 7B and 14B.
+2. **FCA achieves F1=0.37–0.75 across 7 models and 3 families** (Qwen, Llama, Gemma). Oracle consistency matters more than model size — performance is non-monotonic with size across all families.
 3. **DPO with contradiction traces** shows valid signal on seen pairs (+13pp accuracy) but fails to generalize with 354 training examples, pointing to data scale as the bottleneck.
 
 ## Quick Start
 
 ```bash
 # Requirements: Python 3.10+, Ollama running locally
-pip install requests pytest
+pip install -r requirements.txt
 
 # Build gold standards
 python gold_standards/build.py
@@ -58,10 +58,12 @@ pytest tests/test_fca_engine.py -v
 │   ├── baseline_structured.py       # Exhaustive survey + FCA engine
 │   └── common.py                    # Shared utilities
 ├── experiments/
-│   ├── run_experiments.py   # Exp 1–5 runner
-│   ├── exp6_synthetic.py    # Synthetic noise study
-│   ├── exp7v2_dpo_pairs.py  # DPO pair collection
-│   └── exp7v3_classification.py  # DPO classification evaluation
+│   ├── run_experiments.py              # Exp 1–5 runner
+│   ├── exp6_synthetic.py               # Exp 6: Synthetic noise study
+│   ├── generate_synthetic_fca_dataset.py  # Synthetic world generator
+│   ├── exp7v2_dpo_pairs.py             # Exp 7: DPO pair collection
+│   ├── exp7v2_eval.py                  # Exp 7: FCA exploration evaluation
+│   └── exp7v3_classification.py        # Exp 7: Classification accuracy evaluation
 └── tests/
     └── test_fca_engine.py   # 42 unit + integration tests
 ```
@@ -71,7 +73,7 @@ pytest tests/test_fca_engine.py -v
 | Exp | Question | Result |
 |-----|----------|--------|
 | 1 | FCA vs baselines? | All baselines F1=0; FCA F1=0.41±0.02 (7B) |
-| 2 | Across models & families? | Best: Qwen-1.5B F1=0.75; all 7 models improved |
+| 2 | Across models & families? | 7 models tested; best F1=0.75 (Qwen-1.5B) |
 | 3 | Across domains? | Countries F1=0.36, Animals F1=0.62 |
 | 4 | Which component matters? | Structured query critical (+0.42), consistency +0.06 |
 | 5 | Does it scale? | 10→15→30 attrs: F1=0.43→0.52→0.50, 30 attrs in 2hrs |
@@ -108,7 +110,7 @@ pytest tests/test_fca_engine.py -v
 ## Citation
 
 ```bibtex
-@article{autoontology2026,
+@article{yang2026beyond,
   title={Beyond Single-Answer Hallucination: Detecting and Learning from
          Cross-Answer Contradictions in Language Models via Formal Concept Analysis},
   author={Yujin Yang and Heejung Lee},
